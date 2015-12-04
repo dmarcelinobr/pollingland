@@ -1,0 +1,35 @@
+---
+title: "Venezuelan Parliamentary Elections"
+author: "Daniel Marcelino"
+date: "December 3, 2015"
+output: html_document
+---
+
+```{r packages}
+library(ggplot2)
+library(dplyr)
+library(SciencesPo) 
+```
+
+```{r data}
+source = "https://github.com/danielmarcelino/Polling/raw/master/Venezuela/polls.txt"
+
+data <- getdata(source)
+
+data$begin <- as.Date(data$begin, format = "%d-%m-%Y")
+# just interested in some period
+data <- data %>% 
+  filter(begin>as.Date("01-07-2014", format = "%d-%m-%Y"))
+```
+
+
+```{r simpleplot, fig.height = 3, fig.width = 6}
+ggplot(data) +
+  geom_point(aes(x = begin, y = MUD,size=3),color="gray25") +
+  geom_point(aes(x = begin, y = PSUV,size=3), color="tomato") +
+  geom_hline(yintercept=0,size=1.2,colour="#535353") +
+  plotTitleSubtitle(title="Vote Intentions for the Gop (MUD) and Gov't (PSUV)", subtitle="Black = MUD, Red = PSUV") +
+  theme_538()
+# credits
+  plotFootnote("danielmarcelino.github.io")
+```
