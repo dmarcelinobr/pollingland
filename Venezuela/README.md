@@ -1,4 +1,4 @@
-![center](figs/Flag_of_Venezuela.svg.png)
+![center](figs/Flag.png)
 
 Venezuela Analysis
 ==================
