@@ -8,15 +8,19 @@ output: html_document
 ```{r packages}
 library(ggplot2)
 library(dplyr)
+require(chron)
 library(SciencesPo) 
 ```
 
 ```{r data}
-source = "https://github.com/danielmarcelino/Polling/raw/master/Venezuela/polls.txt"
+source = "https://github.com/danielmarcelino/Polling/raw/master/Venezuela/data/polls.txt"
 
 data <- getdata(source)
 
 data$begin <- as.Date(data$begin, format = "%d-%m-%Y")
+data$end <- as.Date(data$end, format = "%d-%m-%Y")
+data <- data %>% mutate(time = begin + ((end - begin)/2))
+
 # just interested in some period
 data <- data %>% 
   filter(begin>as.Date("01-07-2014", format = "%d-%m-%Y"))
@@ -25,11 +29,18 @@ data <- data %>%
 
 ```{r simpleplot, fig.height = 3, fig.width = 6}
 ggplot(data) +
-  geom_point(aes(x = begin, y = MUD,size=3),color="gray25") +
-  geom_point(aes(x = begin, y = PSUV,size=3), color="tomato") +
+  geom_point(aes(x = time, y = MUD,size=3),color="gray25") +
+  geom_point(aes(x = time, y = PSUV,size=3), color="tomato") +
   geom_hline(yintercept=0,size=1.2,colour="#535353") +
   plotTitleSubtitle(title="Vote Intentions for the Gop (MUD) and Gov't (PSUV)", subtitle="Black = MUD, Red = PSUV") +
   theme_538()
 # credits
   plotFootnote("danielmarcelino.github.io")
+```
+
+There is no trend with the data actually.
+```{r Bartels Rank}
+bartels.rank(data$MUD, alternative="left.sided",  pvalue="beta")
+
+bartels.rank(data$PSUV, alternative="left.sided",  pvalue="beta")
 ```
