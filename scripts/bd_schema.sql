@@ -1,13 +1,3 @@
-# 02_create_schema.py
-import sqlite3
-
-# conectando...
-conn = sqlite3.connect('pollingpoint.db')
-# definindo um cursor
-cursor = conn.cursor()
-
-# criando a tabela (schema)
-cursor.execute("""
 CREATE TABLE empresas (
 	nome TEXT NOT NULL,
 	razao_social TEXT NOT NULL,
@@ -18,7 +8,7 @@ CREATE TABLE empresas (
 	cidade TEXT,
 	uf VARCHAR(2) NOT NULL,
 	criada_em YEAR NOT NULL,
-	CONSTRAINT pk_empresa PRIMARY KEY(cnpj, nome),
+	CONSTRAINT pk_empresa PRIMARY KEY(cnpj),
     CONSTRAINT fk_empresa FOREIGN KEY(nome) REFERENCES aprovacao(empresa),
 	CONSTRAINT fk2_empresa FOREIGN KEY(nome) REFERENCES intencao(empresa),
 	/* CONSTRAINT fk3_empresa FOREIGN KEY(id_responsavel) REFERENCES pollsters(cpf),*/
@@ -26,22 +16,8 @@ CREATE TABLE empresas (
 	CHECK (cnpj LIKE '__.___.___/____-__'),
 	CHECK (id_responsavel LIKE '___.___.___-__')
 );
-""")
-
-print('Tabela criada com sucesso.')
-# desconectando...
-conn.close()
 
 
-
-
-# conectando...
-conn = sqlite3.connect('pollingpoint.db')
-# definindo um cursor
-cursor = conn.cursor()
-
-# criando a tabela (schema)
-cursor.execute("""
 CREATE TABLE pollsters (
 	nome TEXT NOT NULL,
 	cpf VARCHAR(16) NOT NULL,
@@ -51,22 +27,8 @@ CREATE TABLE pollsters (
     CONSTRAINT fk_pollster FOREIGN KEY(cpf) REFERENCES empresas(id_responsavel),
 	CHECK (cpf LIKE '___.___.___-__')
 );
-""")
-
-print('Tabela criada com sucesso.')
-# desconectando...
-conn.close()
 
 
-
-
-# conectando...
-conn = sqlite3.connect('pollingpoint.db')
-# definindo um cursor
-cursor = conn.cursor()
-
-# criando a tabela (schema)
-cursor.execute("""
 CREATE TABLE aprovacao (
 	data_ini DATE NOT NULL,
 	data_fim DATE NOT NULL,
@@ -86,26 +48,13 @@ CREATE TABLE aprovacao (
 	tipo TEXT NOT NULL,
 	pergunta TEXT,
 	modo TEXT NOT NULL,
-	CONSTRAINT pk_aprovacao PRIMARY KEY(data_fim, empresa, tipo),
+	CONSTRAINT pk_aprovacao PRIMARY KEY(data_fim, nome),
     CONSTRAINT fk_aprovacao FOREIGN KEY(empresa) REFERENCES empresas(nome),
 	CHECK (data_fim LIKE '____-__-__')
 );
-""")
-
-print('Tabela criada com sucesso.')
-# desconectando...
-conn.close()
 
 
 
-
-# conectando...
-conn = sqlite3.connect('pollingpoint.db')
-# definindo um cursor
-cursor = conn.cursor()
-
-# criando a tabela (schema)
-cursor.execute("""
 CREATE TABLE intencao (
 	data_ini DATE NOT NULL,
 	data_fim DATE NOT NULL,
@@ -124,12 +73,7 @@ CREATE TABLE intencao (
 	tipo TEXT NOT NULL,
 	modo TEXT NOT NULL,
 	pergunta TEXT,
-	CONSTRAINT pk_intencao PRIMARY KEY(data_fim, empresa, cargo, turno, candidato, tipo),
+	CONSTRAINT pk_intencao PRIMARY KEY(data_fim, nome, cargo, turno, candidato, tipo),
     CONSTRAINT fk_intencao FOREIGN KEY(empresa) REFERENCES empresas(nome),
 	CHECK (data_fim LIKE '____-__-__')
 );
-""")
-
-print('Tabela criada com sucesso.')
-# desconectando...
-conn.close()
