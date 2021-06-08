@@ -1,16 +1,16 @@
 # 08_delete_data.py
 import sqlite3
 
-conn = sqlite3.connect('clientes.db')
+conn = sqlite3.connect('pollingpoint.db')
 cursor = conn.cursor()
 
-id_cliente = 8
+cpf = '000.000.000-00'
 
 # excluindo um registro da tabela
 cursor.execute("""
-DELETE FROM clientes
-WHERE id = ?
-""", (id_cliente,))
+DELETE FROM pollsters
+WHERE cpf = ?
+""", (cpf,))
 
 conn.commit()
 
