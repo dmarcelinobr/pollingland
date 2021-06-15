@@ -17,8 +17,8 @@ VALUES ('Datafolha', 'Mauro Paulino', '000.000.000-00', '', '(00) 00000-0000')
 
 
 cursor.execute("""
-INSERT OR REPLACE INTO aprovacao (data_ini, data_fim, empresa, nome, positiva, regular, negativa, nsnr, erro, ic, amostra, ufs, cidades, partido, presidente, tipo, pergunta, modo)
-VALUES ('1986-03-11', '1986-03-15', 'Datafolha', 'Datafolha', 71, 25, 2, 3, 3, 95, 1000, '10','10','PMDB', 'José Sarney', 'Avaliação do governo federal','Na sua opinião o presidente José Sarney está sendo ótimo, bom, regular, ruim ou péssimo?', 'FF')
+INSERT OR FAIL INTO aprovacao (id, data_ini, data_fim, empresa, nome, positiva, regular, negativa, nsnr, erro, ic, amostra, ufs, cidades, partido, presidente, tipo, pergunta, modo)
+VALUES ((SELECT IFNULL(MAX(id), 0) + 1 FROM aprovacao), '2021-06-05', '2021-06-06', 'IDEIA Big Data', 'EXAME/IDEIA', 26, 23, 49, 2, 3, 95, 1252, 27, Null ,'(Sem partido)', 'Jair Bolsonaro', 'Avaliação do governo federal', 'Como você avalia o governo de Jair Bolsonaro até o momento?', 'CATI')
 """)
 
 

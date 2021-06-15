@@ -140,18 +140,19 @@ conn = sqlite3.connect('pollingpoint.db')
 # definindo um cursor
 cursor = conn.cursor()
 
+
 # criando a tabela (schema)
 cursor.execute("""
 CREATE TABLE intencao (
 	id INTEGER UNIQUE,
-	data_ini DATE,
+	data_ini DATE NOT NULL,
 	data_fim DATE NOT NULL,
 	empresa TEXT NOT NULL,
 	nome TEXT NOT NULL,
 	cargo TEXT NOT NULL,
 	turno INTEGER NOT NULL,
+	partido TEXT,
 	candidato TEXT NOT NULL,
-	partido TEXT NOT NULL,
 	voto NUMERIC(2,1) NOT NULL,
 	erro NUMERIC(2,1),
 	ic NUMERIC(2,1),
