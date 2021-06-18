@@ -21,8 +21,8 @@ CREATE TABLE empresas (
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
 	/* CONSTRAINT pk_empresa PRIMARY KEY(cnpj, nome), */
 	-- nome da empresa nao deve ser NULL e ter valores combinaveis em aprovacao/empresa.
-    CONSTRAINT fk_empresa FOREIGN KEY(nome) REFERENCES aprovacao(empresa),
-	CONSTRAINT fk2_empresa FOREIGN KEY(nome) REFERENCES intencao(empresa),
+    /* CONSTRAINT fk_empresa FOREIGN KEY(nome) REFERENCES aprovacao(empresa), */
+	/* CONSTRAINT fk2_empresa FOREIGN KEY(nome) REFERENCES intencao(empresa), */
 	/* CHECK (email LIKE '%_@_%_.__%'), */
 	CHECK (cnpj LIKE '__.___.___/____-__')
 );
@@ -51,7 +51,7 @@ CREATE TABLE pollsters (
 	telefone TEXT,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
 	/* CONSTRAINT pk_pollster PRIMARY KEY(cpf), */ 
-    CONSTRAINT fk_pollster FOREIGN KEY(empresa) REFERENCES empresas(nome),
+    /* CONSTRAINT fk_pollster FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
 	CHECK (cpf LIKE '___.___.___-__')
 );
 """)
@@ -78,9 +78,9 @@ CREATE TABLE ranking (
 	eleicao TEXT NOT NULL,
 	ano YEAR NOT NULL,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
-    CONSTRAINT fk_ranking FOREIGN KEY(empresa) REFERENCES empresas(nome),
-	CONSTRAINT fk2_ranking FOREIGN KEY(empresa) REFERENCES aprovacao(empresa),
-	CONSTRAINT fk3_ranking FOREIGN KEY(empresa) REFERENCES intencao(empresa),
+    /* CONSTRAINT fk_ranking FOREIGN KEY(empresa) REFERENCES empresas(nome),  */ 
+	/* CONSTRAINT fk2_ranking FOREIGN KEY(empresa) REFERENCES aprovacao(empresa), */ 
+	/* CONSTRAINT fk3_ranking FOREIGN KEY(empresa) REFERENCES intencao(empresa), */ 
 	CHECK (ano LIKE '____')
 );
 """)
@@ -120,8 +120,8 @@ CREATE TABLE aprovacao (
 	modo TEXT NOT NULL,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
 	CONSTRAINT pk_aprovacao PRIMARY KEY(data_fim, empresa, nome, tipo),
-    CONSTRAINT fk_aprovacao FOREIGN KEY(empresa) REFERENCES empresas(nome),
-	CONSTRAINT fk2_aprovacao FOREIGN KEY(empresa) REFERENCES ranking(empresa),
+    /* CONSTRAINT fk_aprovacao FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
+	/* CONSTRAINT fk2_aprovacao FOREIGN KEY(empresa) REFERENCES ranking(empresa), */ 
 	CHECK (data_ini LIKE '____-__-__'),
 	CHECK (data_fim LIKE '____-__-__')
 );
@@ -164,8 +164,8 @@ CREATE TABLE intencao (
 	pergunta TEXT,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
 	CONSTRAINT pk_intencao PRIMARY KEY(data_fim, empresa, nome, cargo, turno, candidato, tipo),
-    CONSTRAINT fk_intencao FOREIGN KEY(empresa) REFERENCES empresas(nome),
-	CONSTRAINT fk2_intencao FOREIGN KEY(empresa) REFERENCES ranking(empresa),
+    /* CONSTRAINT fk_intencao FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
+	/* CONSTRAINT fk2_intencao FOREIGN KEY(empresa) REFERENCES ranking(empresa), */ 
 	CHECK (data_ini LIKE '____-__-__'),
 	CHECK (data_fim LIKE '____-__-__')
 );
