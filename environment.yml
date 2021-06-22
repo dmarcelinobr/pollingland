@@ -1,0 +1,31 @@
+name: pollingpoint
+channels:
+  - conda-forge
+  - defaults 
+dependencies:
+  - python=3.8
+  - arviz
+  - black
+  - bokeh
+  - fiona
+  - geopandas
+  - jupyterlab
+  - libblas=*=*mkl
+  - lxml
+  - matplotlib
+  - mkl-service
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - pymc3
+  - python-graphviz
+  - scipy
+  - shapely
+  - voila
+  - watermark
+  - xarray
+  - xlrd
+  - ipykernel 
+  - ipython
+  - flake8 # For linting (spell and grammar checker of python code)  
