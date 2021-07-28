@@ -17,7 +17,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 var x = d3.scaleTime()
-	.domain([new Date("2019-01-01"), new Date("2022-12-31")]) 
+	.domain([new Date("2019-01-01"), new Date("2023-01-01")]) 
 	.range([ 0, width ]);
 svg.append("g")
 	.attr("transform", "translate(0," + height + ")")
@@ -206,15 +206,16 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
 // -------------------------------------------------------------------
 //                        == POLL DATA ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/polls_popularity.csv",
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/pollingpoint/master/dashboards/exports/polls_popularity.csv",
   function(d){ // Let us format the data variable
     return { 
-      field_date : d3.timeParse("%Y-%m-%d")(d.field_date),
-      sondage : d.sondage,
-      method: d.method,
-      p_approve: Number.parseFloat(100 * d.p_approve).toFixed(1),
-      p_disapprove: Number.parseFloat(100 * d.p_disapprove).toFixed(1),
-      samplesize: d.samplesize
+		data_fim : d3.timeParse("%Y-%m-%d")(d.data_fim),
+      empresa : d.empresa,
+      modo: d.modo,
+      positiva: Number.parseFloat(100 * d.positiva).toFixed(1),
+	  regular: Number.parseFloat(100 * d.regular).toFixed(1),
+      negativa: Number.parseFloat(100 * d.negativa).toFixed(1),
+      amostra: d.amostra
   	}
   },
   function(data) {
@@ -230,7 +231,7 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
 
 
   var highlight = function(d) {
-    selected_pollster = d.sondage
+    selected_pollster = d.empresa
 
     d3.selectAll(".dot")
       .transition()
@@ -269,12 +270,13 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
   var mousemove = function(d) {
     tooltip
       .html(
-				d.sondage + " - "
-				+ d.samplesize + " entrevistados"
-				+ " (" + d.method + ")<br>"
-				+ "<span style='color:#0087C6; font-weight:bold'>" + d.p_approve + "%</span> de avaliação positiva<br>"
-				+ "<span style='color:#ED4B00; font-weight: bold'>" + d.p_disapprove + "%</span> de avaliação negativa<br>"
-				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.field_date) + ")</span>"
+				d.empresa + " - "
+				+ d.amostra + " entrevistados"
+				+ " (" + d.modo + ")<br>"
+				+ "<span style='color:#0087C6; font-weight:bold'>" + d.positiva + "%</span> de avaliação positiva<br>"
+				+ "<span style='color:#808080; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
+				+ "<span style='color:#ED4B00; font-weight:bold'>" + d.negativa + "%</span> de avaliação negativa<br>"
+				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.data_fim) + ")</span>"
 			)
   }
 	
@@ -293,9 +295,9 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
 		.data(data)
     .enter()
     .append("circle")
-		  .attr("class", function (d) { return "dot " + d.sondage } )
-      .attr("cx", function (d) { return x(d.field_date); } )
-      .attr("cy", function (d) { return y(d.p_approve); } )
+		  .attr("class", function (d) { return "dot " + d.empresa } )
+      .attr("cx", function (d) { return x(d.data_fim); } )
+      .attr("cy", function (d) { return y(d.positiva); } )
       .attr("r", 4)
       .style("fill", "#00a2ed")
       .style("opacity", 1)
