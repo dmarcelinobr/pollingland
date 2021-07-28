@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="static/css/normalize.css">
+  <link rel="stylesheet" href="static/css/skeleton.css">
+  <link rel="stylesheet" href="static/css/custom.css">
+
+	<script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<section class="header">
+			<h2 class="title">Bolsonaro é <span style="color: #008eed; font-weight: bold">popular</span> ?</h2>
+			<p>Infográfico que representa a popularidade do presidente Jair Bolsonaro calculado a partir de pesquisas de opinião. 
+				O modelo leva em consideração o tamanho da amostra, bem como os vieses dos institutos e dos métodos utilizados para seleção e entrevista dos participantes. A metodologia está descrita <a href="https://daniemarcelino.github.io/pollingpoint/popularidade.html"> neste artigo</a>.</p>
+
+			<p>Quer ser informado de análises regulares, nos siga: <a href="https://twitter.com/JotaInfo
+				">@JotaInfo</a>.</p>
+
+		</section>
+
+	  <div id="my_dataviz"></div>
+		<img src="static/img/legend.svg" width=250>
+
+  	<div class="comparison-section">
+			<h6 class="comparison-header">Como <span style="color:#008eed">Bolsonaro</span> se compara aos presidentes anteriores?</h6>
+		<div class="comparisons row">
+			<div class="six columns comparison">
+				<div class="comparison-name">Lula I</div>
+				<img class="comparison-img" src="exports/comparaison_chirac2_macron.svg">
+			</div>
+			<div class="six columns comparison">
+				<div class="comparison-name">Lula II</div>
+				<img class="comparison-img" src="exports/comparaison_sarkozy_macron.svg">
+			</div>
+		</div>
+		<div class="comparisons row">
+			<div class="six columns comparison">
+				<div class="comparison-name">Dilma I</div>
+				<img class="comparison-img" src="exports/comparaison_hollande_macron.svg">
+			</div>
+		</div>
+		</div>
+
+  	<div class="comparison-section">
+			<h6 class="comparison-header">Equipe de desenvolvimento</h6>
+			<p>O site e o modelo estatísitco de agregação foram desenvolvidos por <a href="https://twitter.com/dmarcelinobr">Daniel Marcelino</a>.</p>
+
+			<p style="font-size: 14px;">
+				<em>
+					Última atualização realizada em 30 de julho de 2021
+				</em>
+			</p>
+		</div>
+	</div>
+
+</body>
+		<script src="static/js/popularity.js"></script>
+</html>
