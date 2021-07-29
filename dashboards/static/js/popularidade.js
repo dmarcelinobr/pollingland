@@ -243,18 +243,18 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/pollingpoint/master/dashb
       .transition()
       .duration(200)
       .style("fill", "#4682b4")
-      .attr("r", 4)
+      .attr("r", 5)
       .style("opacity", 1)
       .style("stroke", "white")
   }
-
+				
   var remove_highlight = function(){
     d3.selectAll(".dot")
       .transition()
       .duration(100)
       .attr("r", 4)
-      .style("fill", "#00a2ed")
-      .style("opacity", 1)
+      .style("fill", "#0087c6")
+      .style("opacity", .5)
       .style("stroke", "white")
   }
 
@@ -274,7 +274,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/pollingpoint/master/dashb
 				+ d.amostra + " entrevistados"
 				+ " (" + d.modo + ")<br>"
 				+ "<span style='color:#0087C6; font-weight:bold'>" + d.positiva + "%</span> de avaliação positiva<br>"
-				+ "<span style='color:#C0C0C0; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
+				+ "<span style='color:#8a7c63; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
 				+ "<span style='color:#ED4B00; font-weight:bold'>" + d.negativa + "%</span> de avaliação negativa<br>"
 				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.data_fim) + ")</span>"
 			)
