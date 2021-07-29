@@ -35,15 +35,15 @@ svg.append("g")
 // -------------------------------------------------------------------
 //                    == MODEL + UNCERTAINTY ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/predictions_popularity.csv", 
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/predictions_popularity.csv", 
   function(d){ // Let us format the data variable
     return { 
 			date : d3.timeParse("%Y-%m-%d")(d.date),
 			mean : Number.parseFloat(100 * d.mean).toFixed(1),
-			hdi_50_right : Number.parseFloat(100 * d.hdi_50_right).toFixed(1),
-			hdi_50_left : Number.parseFloat(100 * d.hdi_50_left).toFixed(1),
-			hdi_90_right : Number.parseFloat(100 * d.hdi_90_right).toFixed(1),
-			hdi_90_left : Number.parseFloat(100 * d.hdi_90_left).toFixed(1),
+			hdi_50_upper : Number.parseFloat(100 * d.hdi_50_upper).toFixed(1),
+			hdi_50_lower : Number.parseFloat(100 * d.hdi_50_lower).toFixed(1),
+			hdi_90_upper : Number.parseFloat(100 * d.hdi_90_upper).toFixed(1),
+			hdi_90_lower : Number.parseFloat(100 * d.hdi_90_lower).toFixed(1),
     }
   },
   function(data){
@@ -196,8 +196,8 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
 				.attr("stroke", "none")
 				.attr("d", d3.area()
 					.x(function(d) { return x(d.date) })
-					.y0(function(d) { return y(d.hdi_90_left) })
-					.y1(function(d) { return y(d.hdi_90_right) })
+					.y0(function(d) { return y(d.hdi_90_lower) })
+					.y1(function(d) { return y(d.hdi_90_upper) })
 					)
 
 }
@@ -206,7 +206,7 @@ d3.csv("https://raw.githubusercontent.com/pollsposition/dashboards/main/exports/
 // -------------------------------------------------------------------
 //                        == POLL DATA ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/dmarcelinobr/pollingpoint/master/dashboards/exports/polls_popularity.csv",
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/polls_popularity.csv",
   function(d){ // Let us format the data variable
     return { 
 		data_fim : d3.timeParse("%Y-%m-%d")(d.data_fim),
