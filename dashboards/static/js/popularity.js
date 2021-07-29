@@ -274,7 +274,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/pollingpoint/master/dashb
 				+ d.amostra + " entrevistados"
 				+ " (" + d.modo + ")<br>"
 				+ "<span style='color:#0087C6; font-weight:bold'>" + d.positiva + "%</span> de avaliação positiva<br>"
-				+ "<span style='color:#808080; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
+				+ "<span style='color:#C0C0C0; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
 				+ "<span style='color:#ED4B00; font-weight:bold'>" + d.negativa + "%</span> de avaliação negativa<br>"
 				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.data_fim) + ")</span>"
 			)
