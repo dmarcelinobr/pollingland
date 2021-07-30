@@ -38,8 +38,8 @@ svg.append("g")
 d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_latente.csv", 
   function(d){ // Let us format the data variable
     return { 
-			date : d3.timeParse("%Y-%m-%d")(d.date),
-			mean : Number.parseFloat(100 * d.mean).toFixed(1),
+			date : d3.timeParse("%Y-%m-%d")(d.mes),
+			mean : Number.parseFloat(100 * d.media).toFixed(1),
 			hdi_50_upper : Number.parseFloat(100 * d.hdi_50_upper).toFixed(1),
 			hdi_50_lower : Number.parseFloat(100 * d.hdi_50_lower).toFixed(1),
 			hdi_90_upper : Number.parseFloat(100 * d.hdi_90_upper).toFixed(1),
@@ -49,7 +49,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
   function(data){
 
 		// This allows to find the closest X index of the mouse:
-		var bisect = d3.bisector(function(d) { return d.date; }).right;
+		var bisect = d3.bisector(function(d) { return d.mes; }).right;
 
 		// Show the average popularity
 		svg
@@ -60,8 +60,8 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			.attr("stroke", "#4682b4")
 			.attr("stroke-width", 4)
 			.attr("d", d3.line()
-				.x(function(d) { return x(d.date) })
-				.y(function(d) { return y(d.mean) })
+				.x(function(d) { return x(d.mes) })
+				.y(function(d) { return y(d.media) })
 				)
 	
 		// Create the text that travels along the curve of chart
@@ -76,9 +76,9 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.attr("alignment-baseline", "middle")
 				.style("font-size", "34px")
 				.style("color", "black")
-				.html(lastItem.mean + " %")
-				.attr("x", x(lastItem.date)+15)
-				.attr("y", y(lastItem.mean)-50)
+				.html(lastItem.media + " %")
+				.attr("x", x(lastItem.mes)+15)
+				.attr("y", y(lastItem.media)-50)
 
 		var approveText = svg
 			.append('g')
@@ -90,13 +90,13 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style("font-size", "14px")
 				.style("color", "black")
 				.html("Positiva")
-				.attr("x", x(lastItem.date)+15)
-				.attr("y", y(lastItem.mean)-25)
+				.attr("x", x(lastItem.mes)+15)
+				.attr("y", y(lastItem.media)-25)
 
 		var display_first_month = new Date( // in front of May we display popularity for Month of April
-				lastItem.date.getFullYear(),
-				lastItem.date.getMonth() - 1, 
-				lastItem.date.getDate()
+				lastItem.mes.getFullYear(),
+				lastItem.mes.getMonth() - 1, 
+				lastItem.mes.getDate()
 		)
 		var focusDate = svg
 			.append('g')
@@ -109,7 +109,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style("font-size", "20px")
 				.style("color", "black")
 				.text(d3.timeFormat("%b %Y")(display_first_month))
-				.attr("x", x(lastItem.date)-40)
+				.attr("x", x(lastItem.mes)-40)
 				.attr("y", 5 * margin.top)
 
 		// Create the vertical line that follows the popularity
@@ -123,8 +123,8 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style('stroke-dasharray', ('5,1'))
 				.attr("y2", 7 * margin.top)
 				.attr("y1", height)
-				.attr("x1", x(lastItem.date))
-				.attr("x2", x(lastItem.date))
+				.attr("x1", x(lastItem.mes))
+				.attr("x2", x(lastItem.mes))
 
 
 			// Create a rect on top of the svg area: this rectangle recovers mouse position
@@ -153,7 +153,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			var i = bisect(data, x0);
 
 			selectedData = data[i]
-			month = selectedData.date
+			month = selectedData.mes
 			var display_month = new Date( // in front of May we display popularity for Month of April
 					month.getFullYear(),
 					month.getMonth() - 1, 
@@ -161,20 +161,20 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			)
 
 			percentText
-				.html(selectedData.mean + "%")
-				.attr("x", x(selectedData.date)+15)
-				.attr("y", y(selectedData.mean)-90)
+				.html(selectedData.media + "%")
+				.attr("x", x(selectedData.mes)+15)
+				.attr("y", y(selectedData.media)-90)
 			approveText
 				.html("positiva")
-				.attr("x", x(selectedData.date)+15)
-				.attr("y", y(selectedData.mean)-70)
+				.attr("x", x(selectedData.mes)+15)
+				.attr("y", y(selectedData.media)-70)
 			focusDate
 				.text(d3.timeFormat("%b %Y")(display_month))
-				.attr("x", x(selectedData.date)-40)
+				.attr("x", x(selectedData.mes)-40)
 				.attr("y", 5 * margin.top)
 			verticalLine
-				.attr("x1", x(selectedData.date))
-				.attr("x2", x(selectedData.date))
+				.attr("x1", x(selectedData.mes))
+				.attr("x2", x(selectedData.mes))
 			}
 
 		function rect_mouseout() {
@@ -195,7 +195,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.attr("opacity", .1)
 				.attr("stroke", "none")
 				.attr("d", d3.area()
-					.x(function(d) { return x(d.date) })
+					.x(function(d) { return x(d.mes) })
 					.y0(function(d) { return y(d.hdi_90_lower) })
 					.y1(function(d) { return y(d.hdi_90_upper) })
 					)
