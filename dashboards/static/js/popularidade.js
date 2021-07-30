@@ -35,7 +35,7 @@ svg.append("g")
 // -------------------------------------------------------------------
 //                    == MODEL + UNCERTAINTY ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/predictions_popularity.csv", 
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_latente.csv", 
   function(d){ // Let us format the data variable
     return { 
 			date : d3.timeParse("%Y-%m-%d")(d.date),
@@ -57,7 +57,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			.datum(data)
 			.attr("id", "popularity")
 			.attr("fill", "none")
-			.attr("stroke", "steelblue")
+			.attr("stroke", "#4682b4")
 			.attr("stroke-width", 4)
 			.attr("d", d3.line()
 				.x(function(d) { return x(d.date) })
@@ -206,7 +206,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 // -------------------------------------------------------------------
 //                        == POLL DATA ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/polls_popularity.csv",
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_observada.csv",
   function(d){ // Let us format the data variable
     return { 
 		data_fim : d3.timeParse("%Y-%m-%d")(d.data_fim),
