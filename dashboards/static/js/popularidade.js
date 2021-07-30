@@ -38,8 +38,8 @@ svg.append("g")
 d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_latente.csv", 
   function(d){ // Let us format the data variable
     return { 
-			date : d3.timeParse("%Y-%m-%d")(d.mes),
-			mean : Number.parseFloat(100 * d.media).toFixed(1),
+			mes : d3.timeParse("%Y-%m-%d")(d.mes),
+			media : Number.parseFloat(100 * d.media).toFixed(1),
 			hdi_50_upper : Number.parseFloat(100 * d.hdi_50_upper).toFixed(1),
 			hdi_50_lower : Number.parseFloat(100 * d.hdi_50_lower).toFixed(1),
 			hdi_90_upper : Number.parseFloat(100 * d.hdi_90_upper).toFixed(1),
