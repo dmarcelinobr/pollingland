@@ -153,11 +153,11 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			var i = bisect(data, x0);
 
 			selectedData = data[i]
-			month = selectedData.mes
+			mes = selectedData.mes
 			var display_month = new Date( // in front of May we display popularity for Month of April
-					month.getFullYear(),
-					month.getMonth() - 1, 
-					month.getDate()
+					mes.getFullYear(),
+					mes.getMonth() - 1, 
+					mes.getDate()
 			)
 
 			percentText
