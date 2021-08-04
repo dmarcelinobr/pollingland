@@ -1,4 +1,4 @@
-data_fim,empresa,nome,modo,positiva,regular,negativa,amostra,erro
+field_date,sondage,method,samplesize,p_approve,p_disapprove
 2019-01-10,IDEIA Big Data,IDEIA Big Data,Internet,0.5,0.28,0.22,1000,3.0
 2019-01-15,Ipespe,Ipespe/XP,CATI,0.4,0.29,0.2,1000,3.2
 2019-01-21,IDEIA Big Data,IDEIA Big Data,Internet,0.51,0.28,0.21,1000,3.0
@@ -249,3 +249,4 @@ data_fim,empresa,nome,modo,positiva,regular,negativa,amostra,erro
 2021-07-21,PoderData,Poder360,IVR,0.26,0.15,0.56,2500,2.0
 2021-07-28,Paraná,Paraná/PSL,Presencial,0.304,0.213,0.475,2010,2.0
 2021-07-29,Atlas,Atlas,Internet,0.257,0.154,0.588,2884,3.0
+2021-08-01,Quaest,Genial/Quaest,Presencial,0.26,0.27,0.44,1500,2.2
