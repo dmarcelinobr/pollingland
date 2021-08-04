@@ -17,7 +17,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 var x = d3.scaleTime()
-	.domain([new Date("2019-01-01"), new Date("2022-12-31")]) 
+	.domain([new Date("2019-01-01"), new Date("2023-01-01")]) 
 	.range([ 0, width ]);
 svg.append("g")
 	.attr("transform", "translate(0," + height + ")")
@@ -38,18 +38,18 @@ svg.append("g")
 d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_latente.csv", 
   function(d){ // Let us format the data variable
     return { 
-			date : d3.timeParse("%Y-%m-%d")(d.date),
-			mean : Number.parseFloat(100 * d.mean).toFixed(1),
-			hdi_50_right : Number.parseFloat(100 * d.hdi_50_right).toFixed(1),
-			hdi_50_left : Number.parseFloat(100 * d.hdi_50_left).toFixed(1),
-			hdi_90_right : Number.parseFloat(100 * d.hdi_90_right).toFixed(1),
-			hdi_90_left : Number.parseFloat(100 * d.hdi_90_left).toFixed(1),
+			mes : d3.timeParse("%Y-%m-%d")(d.mes),
+			media : Number.parseFloat(100 * d.media).toFixed(1),
+			hdi_50_upper : Number.parseFloat(100 * d.hdi_50_upper).toFixed(1),
+			hdi_50_lower : Number.parseFloat(100 * d.hdi_50_lower).toFixed(1),
+			hdi_90_upper : Number.parseFloat(100 * d.hdi_90_upper).toFixed(1),
+			hdi_90_lower : Number.parseFloat(100 * d.hdi_90_lower).toFixed(1),
     }
   },
   function(data){
 
 		// This allows to find the closest X index of the mouse:
-		var bisect = d3.bisector(function(d) { return d.date; }).right;
+		var bisect = d3.bisector(function(d) { return d.mes; }).right;
 
 		// Show the average popularity
 		svg
@@ -57,11 +57,11 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			.datum(data)
 			.attr("id", "popularity")
 			.attr("fill", "none")
-			.attr("stroke", "steelblue")
+			.attr("stroke", "#4682b4")
 			.attr("stroke-width", 4)
 			.attr("d", d3.line()
-				.x(function(d) { return x(d.date) })
-				.y(function(d) { return y(d.mean) })
+				.x(function(d) { return x(d.mes) })
+				.y(function(d) { return y(d.media) })
 				)
 	
 		// Create the text that travels along the curve of chart
@@ -76,9 +76,9 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.attr("alignment-baseline", "middle")
 				.style("font-size", "34px")
 				.style("color", "black")
-				.html(lastItem.mean + " %")
-				.attr("x", x(lastItem.date)+15)
-				.attr("y", y(lastItem.mean)-50)
+				.html(lastItem.media + " %")
+				.attr("x", x(lastItem.mes)+15)
+				.attr("y", y(lastItem.media)-50)
 
 		var approveText = svg
 			.append('g')
@@ -90,13 +90,13 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style("font-size", "14px")
 				.style("color", "black")
 				.html("Positiva")
-				.attr("x", x(lastItem.date)+15)
-				.attr("y", y(lastItem.mean)-25)
+				.attr("x", x(lastItem.mes)+15)
+				.attr("y", y(lastItem.media)-25)
 
 		var display_first_month = new Date( // in front of May we display popularity for Month of April
-				lastItem.date.getFullYear(),
-				lastItem.date.getMonth() - 1, 
-				lastItem.date.getDate()
+				lastItem.mes.getFullYear(),
+				lastItem.mes.getMonth() - 1, 
+				lastItem.mes.getDate()
 		)
 		var focusDate = svg
 			.append('g')
@@ -109,7 +109,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style("font-size", "20px")
 				.style("color", "black")
 				.text(d3.timeFormat("%b %Y")(display_first_month))
-				.attr("x", x(lastItem.date)-40)
+				.attr("x", x(lastItem.mes)-40)
 				.attr("y", 5 * margin.top)
 
 		// Create the vertical line that follows the popularity
@@ -123,9 +123,9 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.style('stroke-dasharray', ('5,1'))
 				.attr("y2", 7 * margin.top)
 				.attr("y1", height)
-				.attr("x1", x(lastItem.date))
-				.attr("x2", x(lastItem.date))
-
+				.attr("x1", x(lastItem.mes))
+				.attr("x2", x(lastItem.mes))
+				
 
 			// Create a rect on top of the svg area: this rectangle recovers mouse position
 		svg
@@ -153,28 +153,28 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			var i = bisect(data, x0);
 
 			selectedData = data[i]
-			month = selectedData.date
+			mes = selectedData.mes
 			var display_month = new Date( // in front of May we display popularity for Month of April
-					month.getFullYear(),
-					month.getMonth() - 1, 
-					month.getDate()
+					mes.getFullYear(),
+					mes.getMonth() - 1, 
+					mes.getDate()
 			)
 
 			percentText
-				.html(selectedData.mean + "%")
-				.attr("x", x(selectedData.date)+15)
-				.attr("y", y(selectedData.mean)-90)
+				.html(selectedData.media + "%")
+				.attr("x", x(selectedData.mes)+15)
+				.attr("y", y(selectedData.media)-90)
 			approveText
 				.html("positiva")
-				.attr("x", x(selectedData.date)+15)
-				.attr("y", y(selectedData.mean)-70)
+				.attr("x", x(selectedData.mes)+15)
+				.attr("y", y(selectedData.media)-70)
 			focusDate
 				.text(d3.timeFormat("%b %Y")(display_month))
-				.attr("x", x(selectedData.date)-40)
+				.attr("x", x(selectedData.mes)-40)
 				.attr("y", 5 * margin.top)
 			verticalLine
-				.attr("x1", x(selectedData.date))
-				.attr("x2", x(selectedData.date))
+				.attr("x1", x(selectedData.mes))
+				.attr("x2", x(selectedData.mes))
 			}
 
 		function rect_mouseout() {
@@ -195,9 +195,9 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				.attr("opacity", .1)
 				.attr("stroke", "none")
 				.attr("d", d3.area()
-					.x(function(d) { return x(d.date) })
-					.y0(function(d) { return y(d.hdi_90_left) })
-					.y1(function(d) { return y(d.hdi_90_right) })
+					.x(function(d) { return x(d.mes) })
+					.y0(function(d) { return y(d.hdi_90_lower) })
+					.y1(function(d) { return y(d.hdi_90_upper) })
 					)
 
 }
@@ -209,12 +209,13 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_observada.csv",
   function(d){ // Let us format the data variable
     return { 
-      field_date : d3.timeParse("%Y-%m-%d")(d.field_date),
-      sondage : d.sondage,
-      method: d.method,
-      p_approve: Number.parseFloat(100 * d.p_approve).toFixed(1),
-      p_disapprove: Number.parseFloat(100 * d.p_disapprove).toFixed(1),
-      samplesize: d.samplesize
+		data_fim : d3.timeParse("%Y-%m-%d")(d.data_fim),
+      empresa : d.empresa,
+      modo: d.modo,
+      positiva: Number.parseFloat(100 * d.positiva).toFixed(1),
+	  regular: Number.parseFloat(100 * d.regular).toFixed(1),
+      negativa: Number.parseFloat(100 * d.negativa).toFixed(1),
+      amostra: d.amostra
   	}
   },
   function(data) {
@@ -230,7 +231,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 
 
   var highlight = function(d) {
-    selected_pollster = d.sondage
+    selected_pollster = d.empresa
 
     d3.selectAll(".dot")
       .transition()
@@ -242,18 +243,18 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
       .transition()
       .duration(200)
       .style("fill", "#4682b4")
-      .attr("r", 4)
+      .attr("r", 5)
       .style("opacity", 1)
       .style("stroke", "white")
   }
-
+				
   var remove_highlight = function(){
     d3.selectAll(".dot")
       .transition()
       .duration(100)
       .attr("r", 4)
-      .style("fill", "#00a2ed")
-      .style("opacity", 1)
+      .style("fill", "#0087c6")
+      .style("opacity", .5)
       .style("stroke", "white")
   }
 
@@ -269,12 +270,13 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
   var mousemove = function(d) {
     tooltip
       .html(
-				d.sondage + " - "
-				+ d.samplesize + " entrevistados"
-				+ " (" + d.method + ")<br>"
-				+ "<span style='color:#0087C6; font-weight:bold'>" + d.p_approve + "%</span> de avaliação positiva<br>"
-				+ "<span style='color:#ED4B00; font-weight: bold'>" + d.p_disapprove + "%</span> de avaliação negativa<br>"
-				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.field_date) + ")</span>"
+				d.empresa + " - "
+				+ d.amostra + " entrevistados"
+				+ " (" + d.modo + ")<br>"
+				+ "<span style='color:#0087C6; font-weight:bold'>" + d.positiva + "%</span> de avaliação positiva<br>"
+				+ "<span style='color:#8a7c63; font-weight:bold'>" + d.regular + "%</span> de avaliação regular<br>"
+				+ "<span style='color:#ED4B00; font-weight:bold'>" + d.negativa + "%</span> de avaliação negativa<br>"
+				+ "<span style='font-style: italic'>(" + d3.timeFormat("%d %B %Y")(d.data_fim) + ")</span>"
 			)
   }
 	
@@ -293,9 +295,9 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 		.data(data)
     .enter()
     .append("circle")
-		  .attr("class", function (d) { return "dot " + d.sondage } )
-      .attr("cx", function (d) { return x(d.field_date); } )
-      .attr("cy", function (d) { return y(d.p_approve); } )
+		  .attr("class", function (d) { return "dot " + d.empresa } )
+      .attr("cx", function (d) { return x(d.data_fim); } )
+      .attr("cy", function (d) { return y(d.positiva); } )
       .attr("r", 4)
       .style("fill", "#00a2ed")
       .style("opacity", 1)
