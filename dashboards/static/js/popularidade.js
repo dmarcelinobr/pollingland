@@ -98,6 +98,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 				lastItem.date.getMonth() - 1, 
 				lastItem.date.getDate()
 		)
+
 		var focusDate = svg
 			.append('g')
 			.append('text')
@@ -154,14 +155,15 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 
 			selectedData = data[i]
 			month = selectedData.date
-			var display_month = new Date( // in front of May we display popularity for Month of April
+			var display_month = new Date(// in front of May we can display popularity for month of April or current May
 					month.getFullYear(),
-					month.getMonth() - 1, 
+					//month.getMonth() - 1, 
+					month.getMonth(), 
 					month.getDate()
 			)
 
 			percentText
-				.html(selectedData.media + "%")
+				.html(selectedData.mean + "%")
 				.attr("x", x(selectedData.date)+15)
 				.attr("y", y(selectedData.mean)-90)
 			approveText
@@ -191,7 +193,7 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 			.append("path")
 			.datum(data)
 				.attr("class", "hdi90")
-				.attr("fill", "#0087c6")
+				.attr("fill", "#4682b4")
 				.attr("opacity", .1)
 				.attr("stroke", "none")
 				.attr("d", d3.area()
@@ -199,6 +201,20 @@ d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/e
 					.y0(function(d) { return y(d.hdi_90_lower) })
 					.y1(function(d) { return y(d.hdi_90_upper) })
 					)
+
+		svg
+			.append("path")
+			.datum(data)
+				.attr("class", "hdi50")
+				.attr("fill", "#4682b4")
+				.attr("opacity", .1)
+				.attr("stroke", "none")
+				.attr("d", d3.area()
+					.x(function(d) { return x(d.date) })
+					.y0(function(d) { return y(d.hdi_50_lower) })
+					.y1(function(d) { return y(d.hdi_50_upper) })
+					)
+
 
 }
 )
