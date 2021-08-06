@@ -35,7 +35,7 @@ svg.append("g")
 // -------------------------------------------------------------------
 //                    == MODEL + UNCERTAINTY ==
 // -------------------------------------------------------------------
-d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_negativa.csv", 
+d3.csv("https://raw.githubusercontent.com/dmarcelinobr/polls/master/dashboards/exports/popularidade_positiva.csv", 
   function(d){ // Let us format the data variable
     return { 
 		    date : d3.timeParse("%Y-%m-%d")(d.date),
