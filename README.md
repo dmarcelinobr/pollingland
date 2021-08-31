@@ -6,6 +6,10 @@ Polling the polls
 > Tracking polling data to estimate the Brazilian presidents' latent popularity over time:
   - [Interactive dashboard](https://www.jota.info/popularidade)
 
+
+ <img src="assets/gp-popularidade.png" width="800px" align="center" />
+
+
 ## What is it?
 This repository is a collection of models written in Python (PyMC3), R, Stan, Jags or Bugs, and dashboards for displaying the results. For now, the models are focused on forecasting the next Brazilian elections.
  
