@@ -4,4 +4,3 @@ A national poll of adults found that Joe Biden (D) has 47.4% approval and 36.6% 
 
 The poll was conducted as an online survey via Prolific, on Saturday, 6 March 2021. Notably this was before the distribution of checks from the 2021 COVID relief bill.
 
--> [See full report](https://github.com/dmarcelinobr/biden_approval_ratings/blob/master/report.pdf)
