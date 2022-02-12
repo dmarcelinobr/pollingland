@@ -2,7 +2,7 @@
 import sqlite3
 
 # conectando...
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 # definindo um cursor
 cursor = conn.cursor()
 
@@ -19,7 +19,9 @@ CREATE TABLE empresas (
 	uf VARCHAR(2) NOT NULL,
 	fundacao YEAR NOT NULL,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
-	/* CONSTRAINT pk_empresa PRIMARY KEY(cnpj, nome), */
+    FOREIGN KEY(nome) REFERENCES eleitoral(empresa),
+    FOREIGN KEY(nome) REFERENCES popularidade(empresa),
+	/* CONSTRAINT pk_empresa PRIMARY KEY(cnpj, razao_social), */
 	-- nome da empresa nao deve ser NULL e ter valores combinaveis em aprovacao/empresa.
     /* CONSTRAINT fk_empresa FOREIGN KEY(nome) REFERENCES aprovacao(empresa), */
 	/* CONSTRAINT fk2_empresa FOREIGN KEY(nome) REFERENCES intencao(empresa), */
@@ -28,7 +30,7 @@ CREATE TABLE empresas (
 );
 """)
 
-print('Tabela criada com sucesso.')
+print('Tabela empresas criada com sucesso.')
 # desconectando...
 conn.close()
 
@@ -36,7 +38,7 @@ conn.close()
 
 
 # conectando...
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 # definindo um cursor
 cursor = conn.cursor()
 
@@ -50,13 +52,15 @@ CREATE TABLE pollsters (
 	email TEXT,
 	telefone TEXT,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
+	FOREIGN KEY(empresa) REFERENCES eleitoral(empresa),
+	FOREIGN KEY(nome) REFERENCES popularidade(empresa),
 	/* CONSTRAINT pk_pollster PRIMARY KEY(cpf), */ 
     /* CONSTRAINT fk_pollster FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
 	CHECK (cpf LIKE '___.___.___-__')
 );
 """)
 
-print('Tabela criada com sucesso.')
+print('Tabela pollsters criada com sucesso.')
 # desconectando...
 conn.close()
 
@@ -64,7 +68,7 @@ conn.close()
 
 
 # conectando...
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 # definindo um cursor
 cursor = conn.cursor()
 
@@ -78,6 +82,8 @@ CREATE TABLE ranking (
 	eleicao TEXT NOT NULL,
 	ano YEAR NOT NULL,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
+    FOREIGN KEY(empresa) REFERENCES eleitoral(empresa),
+	FOREIGN KEY(empresa) REFERENCES popularidade(empresa),
     /* CONSTRAINT fk_ranking FOREIGN KEY(empresa) REFERENCES empresas(nome),  */ 
 	/* CONSTRAINT fk2_ranking FOREIGN KEY(empresa) REFERENCES aprovacao(empresa), */ 
 	/* CONSTRAINT fk3_ranking FOREIGN KEY(empresa) REFERENCES intencao(empresa), */ 
@@ -85,20 +91,20 @@ CREATE TABLE ranking (
 );
 """)
 
-print('Tabela criada com sucesso.')
+print('Tabela ranking criada com sucesso.')
 # desconectando...
 conn.close()
 
 
 
 # conectando...
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 # definindo um cursor
 cursor = conn.cursor()
 
 # criando a tabela (schema)
 cursor.execute("""
-CREATE TABLE aprovacao (
+CREATE TABLE popularidade (
 	id INTEGER UNIQUE,
 	data_ini DATE,
 	data_fim DATE NOT NULL,
@@ -113,13 +119,16 @@ CREATE TABLE aprovacao (
 	amostra INTEGER,
 	ufs TEXT,
 	cidades TEXT,
+	stratum TEXT NOT NULL,
 	partido TEXT NOT NULL,
     presidente TEXT NOT NULL,
 	tipo TEXT NOT NULL,
+    modo TEXT NOT NULL,
 	pergunta TEXT,
-	modo TEXT NOT NULL,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
-	CONSTRAINT pk_aprovacao PRIMARY KEY(data_fim, empresa, nome, tipo),
+	CONSTRAINT pk_aprovacao PRIMARY KEY(data_fim, empresa, nome, stratum, presidente, tipo, modo),
+	FOREIGN KEY(empresa) REFERENCES empresas(empresa),
+	FOREIGN KEY(empresa) REFERENCES ranking(empresa),
     /* CONSTRAINT fk_aprovacao FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
 	/* CONSTRAINT fk2_aprovacao FOREIGN KEY(empresa) REFERENCES ranking(empresa), */ 
 	CHECK (data_ini LIKE '____-__-__'),
@@ -128,7 +137,7 @@ CREATE TABLE aprovacao (
 """)
 
 
-print('Tabela criada com sucesso.')
+print('Tabela popularidade criada com sucesso.')
 # desconectando...
 conn.close()
 
@@ -136,14 +145,14 @@ conn.close()
 
 
 # conectando...
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 # definindo um cursor
 cursor = conn.cursor()
 
 
 # criando a tabela (schema)
 cursor.execute("""
-CREATE TABLE intencao (
+CREATE TABLE eleitoral (
 	id INTEGER UNIQUE,
 	data_ini DATE NOT NULL,
 	data_fim DATE NOT NULL,
@@ -159,11 +168,15 @@ CREATE TABLE intencao (
 	amostra INTEGER,
 	ufs TEXT,
 	cidades TEXT,
+	stratum TEXT NOT NULL,
 	tipo TEXT NOT NULL,
 	modo TEXT NOT NULL,
+	cenario TEXT NOT NULL,
 	pergunta TEXT,
 	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
-	CONSTRAINT pk_intencao PRIMARY KEY(data_fim, empresa, nome, cargo, turno, candidato, tipo),
+	CONSTRAINT pk_intencao PRIMARY KEY(data_fim, empresa, nome, cargo, turno, stratum, candidato, tipo, modo, cenario),
+	FOREIGN KEY(empresa) REFERENCES empresas(empresa),
+	FOREIGN KEY(empresa) REFERENCES ranking(empresa),
     /* CONSTRAINT fk_intencao FOREIGN KEY(empresa) REFERENCES empresas(nome), */ 
 	/* CONSTRAINT fk2_intencao FOREIGN KEY(empresa) REFERENCES ranking(empresa), */ 
 	CHECK (data_ini LIKE '____-__-__'),
@@ -171,6 +184,34 @@ CREATE TABLE intencao (
 );
 """)
 
-print('Tabela criada com sucesso.')
+print('Tabela eleitoral criada com sucesso.')
+# desconectando...
+conn.close()
+
+
+
+# conectando...
+conn = sqlite3.connect('pollingpoints.db')
+# definindo um cursor
+cursor = conn.cursor()
+
+
+# criando a tabela (schema)
+cursor.execute("""
+CREATE TABLE fundamentos (
+	id INTEGER UNIQUE,
+	periodo DATE NOT NULL,
+	stratum TEXT NOT NULL,
+    fonte TEXT NOT NULL,
+	serie TEXT NOT NULL,
+	indice TEXT NOT NULL,
+	valor NUMERIC(2,4),
+	timestamp DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime')),
+	CONSTRAINT pk_intencao PRIMARY KEY(periodo, stratum, fonte, indice),
+	CHECK (periodo LIKE '____-__')
+);
+""")
+
+print('Tabela eleitoral criada com sucesso.')
 # desconectando...
 conn.close()

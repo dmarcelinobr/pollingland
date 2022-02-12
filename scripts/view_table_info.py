@@ -1,9 +1,9 @@
 # 10_view_table_info.py
 import sqlite3
 
-conn = sqlite3.connect('clientes.db')
+conn = sqlite3.connect('pollingpoints.db')
 cursor = conn.cursor()
-nome_tabela = 'clientes'
+nome_tabela = 'eleitoral'
 
 # obtendo informações da tabela
 cursor.execute('PRAGMA table_info({})'.format(nome_tabela))
@@ -16,7 +16,7 @@ print('Colunas:', colunas)
 
 # listando as tabelas do bd
 cursor.execute("""
-SELECT name FROM sqlite_master WHERE type='table' ORDER BY name
+SELECT empresa FROM sqlite_master WHERE type='table' ORDER BY empresa
 """)
 
 print('Tabelas:')

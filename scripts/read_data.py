@@ -1,7 +1,7 @@
 # 06_read_data.py
 import sqlite3
 
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 cursor = conn.cursor()
 
 # lendo os dados

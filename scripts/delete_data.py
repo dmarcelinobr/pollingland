@@ -1,7 +1,7 @@
 # 08_delete_data.py
 import sqlite3
 
-conn = sqlite3.connect('pollingpoint.db')
+conn = sqlite3.connect('pollingpoints.db')
 cursor = conn.cursor()
 
 cpf = '000.000.000-00'
