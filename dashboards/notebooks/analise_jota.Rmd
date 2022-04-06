@@ -1,0 +1,84 @@
+---
+title: "Popularidade Presidencial/Call"
+author: "Daniel Marcelino"
+date: "2/26/2019"
+output:
+  html_document:
+    df_print: paged
+    keep_md: true
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, clean=FALSE)
+
+Sys.setlocale("LC_ALL", "pt_BR.UTF-8")
+```
+
+
+```{r}
+library(tidyverse)
+library(readr)
+
+```
+
+
+```{r}
+popularidade_observada <- read_delim("~/dmarcelinobr/polls/dashboards/exports/popularidade_observada.csv")
+
+positivo_observado_previsto <- read_delim("~/dmarcelinobr/polls/dashboards/notebooks/positivo_observado_previsto_sub.csv",  ";", escape_double = FALSE, trim_ws = TRUE)
+
+observado_m <-  positivo_observado_previsto %>%
+  mutate(mes = format(data_fim, "%m"), ano = format(data_fim, "%Y")) %>%
+  group_by(mes, ano) %>%
+  summarise(observado = mean(observado, na.rm=TRUE),
+            previsto = mean(previsto, na.rm=TRUE))
+
+
+Popularidade <- read_delim("~/Aprovacao/dados/PopularidadeSS.csv",  ",", escape_double = FALSE, trim_ws = TRUE)
+
+Popularidade_m <-  Popularidade %>%
+  mutate(mes = format(date, "%m"), ano = format(date, "%Y")) %>%
+  group_by(mes, ano, Series) %>%
+  summarise(previsto = mean(Median, na.rm=TRUE))
+
+
+library(readxl)
+resultados_eleicoes_presidenciais <- read_excel("~/dmarcelinobr/polls/resultados_eleicoes_presidenciais.xlsx")
+View(resultados_eleicoes_presidenciais)
+
+
+resultados <- resultados_eleicoes_presidenciais %>% filter(candidato %in% c("Fernando Henrique Cardoso (PSDB)","Luiz Inácio Lula da Silva (PT)", "Dilma Rousseff (PT)")) %>% select(candidato, percentagem, votos_totais, ano)
+
+
+```
+
+
+```{r}
+
+library(readr)
+popularidade_resultado <- read_csv("dados/popularidade_resultado.txt")
+
+popularidade_resultado <-  popularidade_resultado %>% select(candidato, ano, ago, set, `votos totais`)
+```
+
+
+```{r}
+locale('pt')
+Sys.setlocale("LC_ALL", "pt_BR.UTF-8")
+
+observado_m %>% filter(ano == "1998" & mes == "09")
+observado_m %>% filter(ano == "2006" & mes == "09")
+observado_m %>% filter(ano == "2014" & mes == "09")
+
+resultados
+
+
+p10 <- ggplot(data = observado_previsto_m, aes(x = data_fim)) +
+  geom_line(aes( y = observado))
+
+
+
+
+```
+

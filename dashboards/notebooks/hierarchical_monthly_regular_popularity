@@ -1,0 +1,76 @@
+digraph {
+	contracoes_pop [label="contracoes_pop
+~
+HalfNormal"]
+	theta_dispersao [label="theta_dispersao
+~
+Exponential"]
+	baseline [label="baseline
+~
+Normal"]
+	subgraph cluster5 {
+		efeito_presidente_truncado_ [label="efeito_presidente_truncado_
+~
+Normal"]
+		label=5 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster6 {
+		efeito_presidente [label="efeito_presidente
+~
+Deterministic" shape=box]
+		label=6 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster31 {
+		efeito_empresa_truncado_ [label="efeito_empresa_truncado_
+~
+Normal"]
+		label=31 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster32 {
+		efeito_empresa [label="efeito_empresa
+~
+Deterministic" shape=box]
+		label=32 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster46 {
+		efeito_mensal_truncado_ [label="efeito_mensal_truncado_
+~
+Normal"]
+		label=46 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster47 {
+		efeito_mensal [label="efeito_mensal
+~
+Deterministic" shape=box]
+		label=47 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 46" {
+		rw_choques [label="rw_choques
+~
+Normal"]
+		label="6 x 46" labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 47" {
+		efeito_mes_presidente [label="efeito_mes_presidente
+~
+Deterministic" shape=box]
+		label="6 x 47" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster669 {
+		aprovacao_latente [label="aprovacao_latente
+~
+BetaBinomial" style=filled]
+		label=669 labeljust=r labelloc=b style=rounded
+	}
+	efeito_presidente_truncado_ -> efeito_presidente
+	efeito_empresa_truncado_ -> efeito_empresa
+	efeito_mensal_truncado_ -> efeito_mensal
+	contracoes_pop -> efeito_mes_presidente
+	rw_choques -> efeito_mes_presidente
+	efeito_presidente -> aprovacao_latente
+	efeito_mensal -> aprovacao_latente
+	theta_dispersao -> aprovacao_latente
+	efeito_mes_presidente -> aprovacao_latente
+	baseline -> aprovacao_latente
+	efeito_empresa -> aprovacao_latente
+}

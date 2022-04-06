@@ -1,0 +1,1724 @@
+date;empresa;candidato;turno;voto;amostra
+2021-03-14;Atlas;Bolsonaro;1.0;0.327;3721.0
+2021-03-14;Atlas;Branco/Nulo;1.0;0.061;3721.0
+2021-03-14;Atlas;Ciro;1.0;0.075;3721.0
+2021-03-14;Atlas;Doria;1.0;0.043;3721.0
+2021-03-14;Atlas;Lula;1.0;0.244;3721.0
+2021-03-14;Atlas;Moro;1.0;0.097;3721.0
+2021-03-21;Atlas;Bolsonaro;;;
+2021-03-21;Atlas;Branco/Nulo;;;
+2021-03-21;Atlas;Ciro;;;
+2021-03-21;Atlas;Doria;;;
+2021-03-21;Atlas;Lula;;;
+2021-03-28;Atlas;Bolsonaro;;;
+2021-03-28;Atlas;Branco/Nulo;;;
+2021-03-28;Atlas;Ciro;;;
+2021-03-28;Atlas;Doria;;;
+2021-03-28;Atlas;Lula;;;
+2021-04-04;Atlas;Bolsonaro;;;
+2021-04-04;Atlas;Branco/Nulo;;;
+2021-04-04;Atlas;Ciro;;;
+2021-04-04;Atlas;Doria;;;
+2021-04-04;Atlas;Lula;;;
+2021-04-11;Atlas;Bolsonaro;;;
+2021-04-11;Atlas;Branco/Nulo;;;
+2021-04-11;Atlas;Ciro;;;
+2021-04-11;Atlas;Doria;;;
+2021-04-11;Atlas;Lula;;;
+2021-04-18;Atlas;Bolsonaro;;;
+2021-04-18;Atlas;Branco/Nulo;;;
+2021-04-18;Atlas;Ciro;;;
+2021-04-18;Atlas;Doria;;;
+2021-04-18;Atlas;Lula;;;
+2021-04-25;Atlas;Bolsonaro;;;
+2021-04-25;Atlas;Branco/Nulo;;;
+2021-04-25;Atlas;Ciro;;;
+2021-04-25;Atlas;Doria;;;
+2021-04-25;Atlas;Lula;;;
+2021-05-02;Atlas;Bolsonaro;;;
+2021-05-02;Atlas;Branco/Nulo;;;
+2021-05-02;Atlas;Ciro;;;
+2021-05-02;Atlas;Doria;;;
+2021-05-02;Atlas;Lula;;;
+2021-05-09;Atlas;Bolsonaro;;;
+2021-05-09;Atlas;Branco/Nulo;;;
+2021-05-09;Atlas;Ciro;;;
+2021-05-09;Atlas;Doria;;;
+2021-05-09;Atlas;Lula;;;
+2021-05-16;Atlas;Bolsonaro;;;
+2021-05-16;Atlas;Branco/Nulo;;;
+2021-05-16;Atlas;Ciro;;;
+2021-05-16;Atlas;Doria;;;
+2021-05-16;Atlas;Lula;;;
+2021-05-23;Atlas;Bolsonaro;;;
+2021-05-23;Atlas;Branco/Nulo;;;
+2021-05-23;Atlas;Ciro;;;
+2021-05-23;Atlas;Doria;;;
+2021-05-23;Atlas;Lula;;;
+2021-05-30;Atlas;Bolsonaro;;;
+2021-05-30;Atlas;Branco/Nulo;;;
+2021-05-30;Atlas;Ciro;;;
+2021-05-30;Atlas;Doria;;;
+2021-05-30;Atlas;Lula;;;
+2021-06-06;Atlas;Bolsonaro;;;
+2021-06-06;Atlas;Branco/Nulo;;;
+2021-06-06;Atlas;Ciro;;;
+2021-06-06;Atlas;Doria;;;
+2021-06-06;Atlas;Lula;;;
+2021-06-13;Atlas;Bolsonaro;;;
+2021-06-13;Atlas;Branco/Nulo;;;
+2021-06-13;Atlas;Ciro;;;
+2021-06-13;Atlas;Doria;;;
+2021-06-13;Atlas;Lula;;;
+2021-06-20;Atlas;Bolsonaro;;;
+2021-06-20;Atlas;Branco/Nulo;;;
+2021-06-20;Atlas;Ciro;;;
+2021-06-20;Atlas;Doria;;;
+2021-06-20;Atlas;Lula;;;
+2021-06-27;Atlas;Bolsonaro;;;
+2021-06-27;Atlas;Branco/Nulo;;;
+2021-06-27;Atlas;Ciro;;;
+2021-06-27;Atlas;Doria;;;
+2021-06-27;Atlas;Lula;;;
+2021-07-04;Atlas;Bolsonaro;;;
+2021-07-04;Atlas;Branco/Nulo;;;
+2021-07-04;Atlas;Ciro;;;
+2021-07-04;Atlas;Doria;;;
+2021-07-04;Atlas;Lula;;;
+2021-07-11;Atlas;Bolsonaro;;;
+2021-07-11;Atlas;Branco/Nulo;;;
+2021-07-11;Atlas;Ciro;;;
+2021-07-11;Atlas;Doria;;;
+2021-07-11;Atlas;Lula;;;
+2021-07-18;Atlas;Bolsonaro;;;
+2021-07-18;Atlas;Branco/Nulo;;;
+2021-07-18;Atlas;Ciro;;;
+2021-07-18;Atlas;Doria;;;
+2021-07-18;Atlas;Lula;;;
+2021-07-25;Atlas;Bolsonaro;;;
+2021-07-25;Atlas;Branco/Nulo;;;
+2021-07-25;Atlas;Ciro;;;
+2021-07-25;Atlas;Doria;;;
+2021-07-25;Atlas;Lula;;;
+2021-08-01;Atlas;Bolsonaro;1.0;0.359;2884.0
+2021-08-01;Atlas;Branco/Nulo;1.0;0.048;2884.0
+2021-08-01;Atlas;Ciro;1.0;0.062;2884.0
+2021-08-01;Atlas;Doria;1.0;0.035;2884.0
+2021-08-01;Atlas;Eduardo Leite;1.0;0.031;2884.0
+2021-08-01;Atlas;Lula;1.0;0.391;2884.0
+2021-08-08;Atlas;Bolsonaro;;;
+2021-08-08;Atlas;Branco/Nulo;;;
+2021-08-08;Atlas;Ciro;;;
+2021-08-08;Atlas;Doria;;;
+2021-08-08;Atlas;Eduardo Leite;;;
+2021-08-08;Atlas;Lula;;;
+2021-08-15;Atlas;Bolsonaro;;;
+2021-08-15;Atlas;Branco/Nulo;;;
+2021-08-15;Atlas;Ciro;;;
+2021-08-15;Atlas;Doria;;;
+2021-08-15;Atlas;Eduardo Leite;;;
+2021-08-15;Atlas;Lula;;;
+2021-08-22;Atlas;Bolsonaro;;;
+2021-08-22;Atlas;Branco/Nulo;;;
+2021-08-22;Atlas;Ciro;;;
+2021-08-22;Atlas;Doria;;;
+2021-08-22;Atlas;Eduardo Leite;;;
+2021-08-22;Atlas;Lula;;;
+2021-08-29;Atlas;Bolsonaro;;;
+2021-08-29;Atlas;Branco/Nulo;;;
+2021-08-29;Atlas;Ciro;;;
+2021-08-29;Atlas;Doria;;;
+2021-08-29;Atlas;Eduardo Leite;;;
+2021-08-29;Atlas;Lula;;;
+2021-09-05;Atlas;Bolsonaro;1.0;0.345;3146.0
+2021-09-05;Atlas;Branco/Nulo;1.0;0.037;3146.0
+2021-09-05;Atlas;Ciro;1.0;0.078;3146.0
+2021-09-05;Atlas;Doria;1.0;0.031;3146.0
+2021-09-05;Atlas;Eduardo Leite;1.0;0.026;3146.0
+2021-09-05;Atlas;Lula;1.0;0.406;3146.0
+2021-10-10;Brasmarket;Bolsonaro;1.0;0.365;4600.0
+2021-10-10;Brasmarket;Branco/Nulo;1.0;0.105;4600.0
+2021-10-10;Brasmarket;Ciro;1.0;0.075;4600.0
+2021-10-10;Brasmarket;Doria;1.0;0.024;4600.0
+2021-10-10;Brasmarket;Eduardo Leite;1.0;0.02;4600.0
+2021-10-10;Brasmarket;Indecisos;1.0;0.153;4600.0
+2021-10-10;Brasmarket;Lula;1.0;0.206;4600.0
+2021-10-10;Brasmarket;Moro;1.0;0.052;4600.0
+2021-05-16;Datafolha;Bolsonaro;1.0;0.23;2071.0
+2021-05-16;Datafolha;Branco/Nulo;1.0;0.09;2071.0
+2021-05-16;Datafolha;Ciro;1.0;0.06;2071.0
+2021-05-16;Datafolha;Doria;1.0;0.03;2071.0
+2021-05-16;Datafolha;Indecisos;1.0;0.04;2071.0
+2021-05-16;Datafolha;Lula;1.0;0.41;2071.0
+2021-05-16;Datafolha;Moro;1.0;0.07;2071.0
+2021-05-23;Datafolha;Bolsonaro;;;
+2021-05-23;Datafolha;Branco/Nulo;;;
+2021-05-23;Datafolha;Ciro;;;
+2021-05-23;Datafolha;Doria;;;
+2021-05-23;Datafolha;Indecisos;;;
+2021-05-23;Datafolha;Lula;;;
+2021-05-23;Datafolha;Moro;;;
+2021-05-30;Datafolha;Bolsonaro;;;
+2021-05-30;Datafolha;Branco/Nulo;;;
+2021-05-30;Datafolha;Ciro;;;
+2021-05-30;Datafolha;Doria;;;
+2021-05-30;Datafolha;Indecisos;;;
+2021-05-30;Datafolha;Lula;;;
+2021-05-30;Datafolha;Moro;;;
+2021-06-06;Datafolha;Bolsonaro;;;
+2021-06-06;Datafolha;Branco/Nulo;;;
+2021-06-06;Datafolha;Ciro;;;
+2021-06-06;Datafolha;Doria;;;
+2021-06-06;Datafolha;Indecisos;;;
+2021-06-06;Datafolha;Lula;;;
+2021-06-06;Datafolha;Moro;;;
+2021-06-13;Datafolha;Bolsonaro;;;
+2021-06-13;Datafolha;Branco/Nulo;;;
+2021-06-13;Datafolha;Ciro;;;
+2021-06-13;Datafolha;Doria;;;
+2021-06-13;Datafolha;Indecisos;;;
+2021-06-13;Datafolha;Lula;;;
+2021-06-13;Datafolha;Moro;;;
+2021-06-20;Datafolha;Bolsonaro;;;
+2021-06-20;Datafolha;Branco/Nulo;;;
+2021-06-20;Datafolha;Ciro;;;
+2021-06-20;Datafolha;Doria;;;
+2021-06-20;Datafolha;Indecisos;;;
+2021-06-20;Datafolha;Lula;;;
+2021-06-20;Datafolha;Moro;;;
+2021-06-27;Datafolha;Bolsonaro;;;
+2021-06-27;Datafolha;Branco/Nulo;;;
+2021-06-27;Datafolha;Ciro;;;
+2021-06-27;Datafolha;Doria;;;
+2021-06-27;Datafolha;Indecisos;;;
+2021-06-27;Datafolha;Lula;;;
+2021-06-27;Datafolha;Moro;;;
+2021-07-04;Datafolha;Bolsonaro;;;
+2021-07-04;Datafolha;Branco/Nulo;;;
+2021-07-04;Datafolha;Ciro;;;
+2021-07-04;Datafolha;Doria;;;
+2021-07-04;Datafolha;Indecisos;;;
+2021-07-04;Datafolha;Lula;;;
+2021-07-04;Datafolha;Moro;;;
+2021-07-11;Datafolha;Bolsonaro;1.0;0.25;2074.0
+2021-07-11;Datafolha;Branco/Nulo;1.0;0.1;2074.0
+2021-07-11;Datafolha;Ciro;1.0;0.08;2074.0
+2021-07-11;Datafolha;Doria;1.0;0.05;2074.0
+2021-07-11;Datafolha;Eduardo Leite;1.0;0.03;2074.0
+2021-07-11;Datafolha;Indecisos;1.0;0.02;2074.0
+2021-07-11;Datafolha;Lula;1.0;0.46;2074.0
+2021-07-11;Datafolha;Moro;;;
+2021-07-18;Datafolha;Bolsonaro;;;
+2021-07-18;Datafolha;Branco/Nulo;;;
+2021-07-18;Datafolha;Ciro;;;
+2021-07-18;Datafolha;Doria;;;
+2021-07-18;Datafolha;Eduardo Leite;;;
+2021-07-18;Datafolha;Indecisos;;;
+2021-07-18;Datafolha;Lula;;;
+2021-07-18;Datafolha;Moro;;;
+2021-07-25;Datafolha;Bolsonaro;;;
+2021-07-25;Datafolha;Branco/Nulo;;;
+2021-07-25;Datafolha;Ciro;;;
+2021-07-25;Datafolha;Doria;;;
+2021-07-25;Datafolha;Eduardo Leite;;;
+2021-07-25;Datafolha;Indecisos;;;
+2021-07-25;Datafolha;Lula;;;
+2021-07-25;Datafolha;Moro;;;
+2021-08-01;Datafolha;Bolsonaro;;;
+2021-08-01;Datafolha;Branco/Nulo;;;
+2021-08-01;Datafolha;Ciro;;;
+2021-08-01;Datafolha;Doria;;;
+2021-08-01;Datafolha;Eduardo Leite;;;
+2021-08-01;Datafolha;Indecisos;;;
+2021-08-01;Datafolha;Lula;;;
+2021-08-01;Datafolha;Moro;;;
+2021-08-08;Datafolha;Bolsonaro;;;
+2021-08-08;Datafolha;Branco/Nulo;;;
+2021-08-08;Datafolha;Ciro;;;
+2021-08-08;Datafolha;Doria;;;
+2021-08-08;Datafolha;Eduardo Leite;;;
+2021-08-08;Datafolha;Indecisos;;;
+2021-08-08;Datafolha;Lula;;;
+2021-08-08;Datafolha;Moro;;;
+2021-08-15;Datafolha;Bolsonaro;;;
+2021-08-15;Datafolha;Branco/Nulo;;;
+2021-08-15;Datafolha;Ciro;;;
+2021-08-15;Datafolha;Doria;;;
+2021-08-15;Datafolha;Eduardo Leite;;;
+2021-08-15;Datafolha;Indecisos;;;
+2021-08-15;Datafolha;Lula;;;
+2021-08-15;Datafolha;Moro;;;
+2021-08-22;Datafolha;Bolsonaro;;;
+2021-08-22;Datafolha;Branco/Nulo;;;
+2021-08-22;Datafolha;Ciro;;;
+2021-08-22;Datafolha;Doria;;;
+2021-08-22;Datafolha;Eduardo Leite;;;
+2021-08-22;Datafolha;Indecisos;;;
+2021-08-22;Datafolha;Lula;;;
+2021-08-22;Datafolha;Moro;;;
+2021-08-29;Datafolha;Bolsonaro;;;
+2021-08-29;Datafolha;Branco/Nulo;;;
+2021-08-29;Datafolha;Ciro;;;
+2021-08-29;Datafolha;Doria;;;
+2021-08-29;Datafolha;Eduardo Leite;;;
+2021-08-29;Datafolha;Indecisos;;;
+2021-08-29;Datafolha;Lula;;;
+2021-08-29;Datafolha;Moro;;;
+2021-09-05;Datafolha;Bolsonaro;;;
+2021-09-05;Datafolha;Branco/Nulo;;;
+2021-09-05;Datafolha;Ciro;;;
+2021-09-05;Datafolha;Doria;;;
+2021-09-05;Datafolha;Eduardo Leite;;;
+2021-09-05;Datafolha;Indecisos;;;
+2021-09-05;Datafolha;Lula;;;
+2021-09-05;Datafolha;Moro;;;
+2021-09-12;Datafolha;Bolsonaro;;;
+2021-09-12;Datafolha;Branco/Nulo;;;
+2021-09-12;Datafolha;Ciro;;;
+2021-09-12;Datafolha;Doria;;;
+2021-09-12;Datafolha;Eduardo Leite;;;
+2021-09-12;Datafolha;Indecisos;;;
+2021-09-12;Datafolha;Lula;;;
+2021-09-12;Datafolha;Moro;;;
+2021-09-19;Datafolha;Bolsonaro;1.0;0.26;3667.0
+2021-09-19;Datafolha;Branco/Nulo;1.0;0.11;3667.0
+2021-09-19;Datafolha;Ciro;1.0;0.09;3667.0
+2021-09-19;Datafolha;Doria;1.0;0.04;3667.0
+2021-09-19;Datafolha;Eduardo Leite;1.0;0.04;3667.0
+2021-09-19;Datafolha;Indecisos;1.0;0.02;3667.0
+2021-09-19;Datafolha;Lula;1.0;0.44;3667.0
+2021-09-19;Datafolha;Moro;1.0;0.07;3667.0
+2021-08-01;Futura;Bolsonaro;1.0;0.252;2000.0
+2021-08-01;Futura;Branco/Nulo;1.0;0.079;2000.0
+2021-08-01;Futura;Ciro;1.0;0.066;2000.0
+2021-08-01;Futura;Doria;1.0;0.023;2000.0
+2021-08-01;Futura;Eduardo Leite;1.0;0.014;2000.0
+2021-08-01;Futura;Indecisos;1.0;0.045;2000.0
+2021-08-01;Futura;Lula;1.0;0.338;2000.0
+2021-08-01;Futura;Moro;1.0;0.063;2000.0
+2021-08-01;Futura;Outros;1.0;0.04;2000.0
+2021-08-08;Futura;Bolsonaro;;;
+2021-08-08;Futura;Branco/Nulo;;;
+2021-08-08;Futura;Ciro;;;
+2021-08-08;Futura;Doria;;;
+2021-08-08;Futura;Eduardo Leite;;;
+2021-08-08;Futura;Indecisos;;;
+2021-08-08;Futura;Lula;;;
+2021-08-08;Futura;Moro;;;
+2021-08-08;Futura;Outros;;;
+2021-08-15;Futura;Bolsonaro;;;
+2021-08-15;Futura;Branco/Nulo;;;
+2021-08-15;Futura;Ciro;;;
+2021-08-15;Futura;Doria;;;
+2021-08-15;Futura;Eduardo Leite;;;
+2021-08-15;Futura;Indecisos;;;
+2021-08-15;Futura;Lula;;;
+2021-08-15;Futura;Moro;;;
+2021-08-15;Futura;Outros;;;
+2021-08-22;Futura;Bolsonaro;1.0;0.313;2000.0
+2021-08-22;Futura;Branco/Nulo;1.0;0.075;2000.0
+2021-08-22;Futura;Ciro;1.0;0.064;2000.0
+2021-08-22;Futura;Doria;1.0;0.036;2000.0
+2021-08-22;Futura;Eduardo Leite;1.0;0.008;2000.0
+2021-08-22;Futura;Indecisos;1.0;0.044;2000.0
+2021-08-22;Futura;Lula;1.0;0.331;2000.0
+2021-08-22;Futura;Moro;;;
+2021-08-22;Futura;Outros;1.0;0.04;2000.0
+2021-08-29;Futura;Bolsonaro;;;
+2021-08-29;Futura;Branco/Nulo;;;
+2021-08-29;Futura;Ciro;;;
+2021-08-29;Futura;Doria;;;
+2021-08-29;Futura;Eduardo Leite;;;
+2021-08-29;Futura;Indecisos;;;
+2021-08-29;Futura;Lula;;;
+2021-08-29;Futura;Moro;;;
+2021-08-29;Futura;Outros;;;
+2021-09-05;Futura;Bolsonaro;;;
+2021-09-05;Futura;Branco/Nulo;;;
+2021-09-05;Futura;Ciro;;;
+2021-09-05;Futura;Doria;;;
+2021-09-05;Futura;Eduardo Leite;;;
+2021-09-05;Futura;Indecisos;;;
+2021-09-05;Futura;Lula;;;
+2021-09-05;Futura;Moro;;;
+2021-09-05;Futura;Outros;;;
+2021-09-12;Futura;Bolsonaro;;;
+2021-09-12;Futura;Branco/Nulo;;;
+2021-09-12;Futura;Ciro;;;
+2021-09-12;Futura;Doria;;;
+2021-09-12;Futura;Eduardo Leite;;;
+2021-09-12;Futura;Indecisos;;;
+2021-09-12;Futura;Lula;;;
+2021-09-12;Futura;Moro;;;
+2021-09-12;Futura;Outros;;;
+2021-09-19;Futura;Bolsonaro;;;
+2021-09-19;Futura;Branco/Nulo;;;
+2021-09-19;Futura;Ciro;;;
+2021-09-19;Futura;Doria;;;
+2021-09-19;Futura;Eduardo Leite;;;
+2021-09-19;Futura;Indecisos;;;
+2021-09-19;Futura;Lula;;;
+2021-09-19;Futura;Moro;;;
+2021-09-19;Futura;Outros;;;
+2021-09-26;Futura;Bolsonaro;1.0;0.284;2000.0
+2021-09-26;Futura;Branco/Nulo;1.0;0.067;2000.0
+2021-09-26;Futura;Ciro;1.0;0.067;2000.0
+2021-09-26;Futura;Doria;1.0;0.026;2000.0
+2021-09-26;Futura;Eduardo Leite;1.0;0.014;2000.0
+2021-09-26;Futura;Indecisos;1.0;0.036;2000.0
+2021-09-26;Futura;Lula;1.0;0.369;2000.0
+2021-09-26;Futura;Moro;1.0;0.06;2000.0
+2021-09-26;Futura;Outros;1.0;0.03;2000.0
+2021-10-03;Futura;Bolsonaro;;;
+2021-10-03;Futura;Branco/Nulo;;;
+2021-10-03;Futura;Ciro;;;
+2021-10-03;Futura;Doria;;;
+2021-10-03;Futura;Eduardo Leite;;;
+2021-10-03;Futura;Indecisos;;;
+2021-10-03;Futura;Lula;;;
+2021-10-03;Futura;Moro;;;
+2021-10-10;Futura;Bolsonaro;;;
+2021-10-10;Futura;Branco/Nulo;;;
+2021-10-10;Futura;Ciro;;;
+2021-10-10;Futura;Doria;;;
+2021-10-10;Futura;Eduardo Leite;;;
+2021-10-10;Futura;Indecisos;;;
+2021-10-10;Futura;Lula;;;
+2021-10-10;Futura;Moro;;;
+2021-10-17;Futura;Bolsonaro;;;
+2021-10-17;Futura;Branco/Nulo;;;
+2021-10-17;Futura;Ciro;;;
+2021-10-17;Futura;Doria;;;
+2021-10-17;Futura;Eduardo Leite;;;
+2021-10-17;Futura;Indecisos;;;
+2021-10-17;Futura;Lula;;;
+2021-10-17;Futura;Moro;;;
+2021-10-24;Futura;Bolsonaro;1.0;0.321;2000.0
+2021-10-24;Futura;Branco/Nulo;1.0;0.074;2000.0
+2021-10-24;Futura;Ciro;1.0;0.097;2000.0
+2021-10-24;Futura;Doria;1.0;0.026;2000.0
+2021-10-24;Futura;Eduardo Leite;1.0;0.031;2000.0
+2021-10-24;Futura;Indecisos;1.0;0.018;2000.0
+2021-10-24;Futura;Lula;1.0;0.347;2000.0
+2021-10-24;Futura;Moro;1.0;0.112;2000.0
+2021-10-31;Futura;Bolsonaro;;;
+2021-10-31;Futura;Branco/Nulo;;;
+2021-10-31;Futura;Ciro;;;
+2021-10-31;Futura;Doria;;;
+2021-10-31;Futura;Eduardo Leite;;;
+2021-10-31;Futura;Indecisos;;;
+2021-10-31;Futura;Lula;;;
+2021-10-31;Futura;Moro;;;
+2021-11-07;Futura;Bolsonaro;;;
+2021-11-07;Futura;Branco/Nulo;;;
+2021-11-07;Futura;Ciro;;;
+2021-11-07;Futura;Doria;;;
+2021-11-07;Futura;Eduardo Leite;;;
+2021-11-07;Futura;Indecisos;;;
+2021-11-07;Futura;Lula;;;
+2021-11-07;Futura;Moro;;;
+2021-11-14;Futura;Bolsonaro;;;
+2021-11-14;Futura;Branco/Nulo;;;
+2021-11-14;Futura;Ciro;;;
+2021-11-14;Futura;Doria;;;
+2021-11-14;Futura;Eduardo Leite;;;
+2021-11-14;Futura;Indecisos;;;
+2021-11-14;Futura;Lula;;;
+2021-11-14;Futura;Moro;;;
+2021-11-21;Futura;Bolsonaro;1.0;0.324;2000.0
+2021-11-21;Futura;Branco/Nulo;1.0;0.04;2000.0
+2021-11-21;Futura;Ciro;1.0;0.062;2000.0
+2021-11-21;Futura;Doria;1.0;0.018;2000.0
+2021-11-21;Futura;Eduardo Leite;1.0;0.014;2000.0
+2021-11-21;Futura;Indecisos;1.0;0.036;2000.0
+2021-11-21;Futura;Lula;1.0;0.386;2000.0
+2021-11-21;Futura;Moro;1.0;0.119;2000.0
+2020-09-06;IDEIA;Bolsonaro;1.0;0.31;1235.0
+2020-09-06;IDEIA;Branco/Nulo;1.0;0.07;1235.0
+2020-09-06;IDEIA;Ciro;1.0;0.06;1235.0
+2020-09-06;IDEIA;Doria;1.0;0.03;1235.0
+2020-09-06;IDEIA;Indecisos;1.0;0.07;1235.0
+2020-09-06;IDEIA;Lula;1.0;0.17;1235.0
+2020-09-06;IDEIA;Moro;1.0;0.13;1235.0
+2020-09-13;IDEIA;Bolsonaro;;;
+2020-09-13;IDEIA;Branco/Nulo;;;
+2020-09-13;IDEIA;Ciro;;;
+2020-09-13;IDEIA;Doria;;;
+2020-09-13;IDEIA;Indecisos;;;
+2020-09-13;IDEIA;Lula;;;
+2020-09-20;IDEIA;Bolsonaro;;;
+2020-09-20;IDEIA;Branco/Nulo;;;
+2020-09-20;IDEIA;Ciro;;;
+2020-09-20;IDEIA;Doria;;;
+2020-09-20;IDEIA;Indecisos;;;
+2020-09-20;IDEIA;Lula;;;
+2020-09-27;IDEIA;Bolsonaro;;;
+2020-09-27;IDEIA;Branco/Nulo;;;
+2020-09-27;IDEIA;Ciro;;;
+2020-09-27;IDEIA;Doria;;;
+2020-09-27;IDEIA;Indecisos;;;
+2020-09-27;IDEIA;Lula;;;
+2020-10-04;IDEIA;Bolsonaro;;;
+2020-10-04;IDEIA;Branco/Nulo;;;
+2020-10-04;IDEIA;Ciro;;;
+2020-10-04;IDEIA;Doria;;;
+2020-10-04;IDEIA;Indecisos;;;
+2020-10-04;IDEIA;Lula;;;
+2020-10-11;IDEIA;Bolsonaro;;;
+2020-10-11;IDEIA;Branco/Nulo;;;
+2020-10-11;IDEIA;Ciro;;;
+2020-10-11;IDEIA;Doria;;;
+2020-10-11;IDEIA;Indecisos;;;
+2020-10-11;IDEIA;Lula;;;
+2020-10-18;IDEIA;Bolsonaro;;;
+2020-10-18;IDEIA;Branco/Nulo;;;
+2020-10-18;IDEIA;Ciro;;;
+2020-10-18;IDEIA;Doria;;;
+2020-10-18;IDEIA;Indecisos;;;
+2020-10-18;IDEIA;Lula;;;
+2020-10-25;IDEIA;Bolsonaro;;;
+2020-10-25;IDEIA;Branco/Nulo;;;
+2020-10-25;IDEIA;Ciro;;;
+2020-10-25;IDEIA;Doria;;;
+2020-10-25;IDEIA;Indecisos;;;
+2020-10-25;IDEIA;Lula;;;
+2020-11-01;IDEIA;Bolsonaro;;;
+2020-11-01;IDEIA;Branco/Nulo;;;
+2020-11-01;IDEIA;Ciro;;;
+2020-11-01;IDEIA;Doria;;;
+2020-11-01;IDEIA;Indecisos;;;
+2020-11-01;IDEIA;Lula;;;
+2020-11-08;IDEIA;Bolsonaro;;;
+2020-11-08;IDEIA;Branco/Nulo;;;
+2020-11-08;IDEIA;Ciro;;;
+2020-11-08;IDEIA;Doria;;;
+2020-11-08;IDEIA;Indecisos;;;
+2020-11-08;IDEIA;Lula;;;
+2020-11-15;IDEIA;Bolsonaro;;;
+2020-11-15;IDEIA;Branco/Nulo;;;
+2020-11-15;IDEIA;Ciro;;;
+2020-11-15;IDEIA;Doria;;;
+2020-11-15;IDEIA;Indecisos;;;
+2020-11-15;IDEIA;Lula;;;
+2020-11-22;IDEIA;Bolsonaro;;;
+2020-11-22;IDEIA;Branco/Nulo;;;
+2020-11-22;IDEIA;Ciro;;;
+2020-11-22;IDEIA;Doria;;;
+2020-11-22;IDEIA;Indecisos;;;
+2020-11-22;IDEIA;Lula;;;
+2020-11-29;IDEIA;Bolsonaro;;;
+2020-11-29;IDEIA;Branco/Nulo;;;
+2020-11-29;IDEIA;Ciro;;;
+2020-11-29;IDEIA;Doria;;;
+2020-11-29;IDEIA;Indecisos;;;
+2020-11-29;IDEIA;Lula;;;
+2020-12-06;IDEIA;Bolsonaro;;;
+2020-12-06;IDEIA;Branco/Nulo;;;
+2020-12-06;IDEIA;Ciro;;;
+2020-12-06;IDEIA;Doria;;;
+2020-12-06;IDEIA;Indecisos;;;
+2020-12-06;IDEIA;Lula;;;
+2020-12-13;IDEIA;Bolsonaro;;;
+2020-12-13;IDEIA;Branco/Nulo;;;
+2020-12-13;IDEIA;Ciro;;;
+2020-12-13;IDEIA;Doria;;;
+2020-12-13;IDEIA;Indecisos;;;
+2020-12-13;IDEIA;Lula;;;
+2020-12-20;IDEIA;Bolsonaro;;;
+2020-12-20;IDEIA;Branco/Nulo;;;
+2020-12-20;IDEIA;Ciro;;;
+2020-12-20;IDEIA;Doria;;;
+2020-12-20;IDEIA;Indecisos;;;
+2020-12-20;IDEIA;Lula;;;
+2020-12-27;IDEIA;Bolsonaro;;;
+2020-12-27;IDEIA;Branco/Nulo;;;
+2020-12-27;IDEIA;Ciro;;;
+2020-12-27;IDEIA;Doria;;;
+2020-12-27;IDEIA;Indecisos;;;
+2020-12-27;IDEIA;Lula;;;
+2021-01-03;IDEIA;Bolsonaro;;;
+2021-01-03;IDEIA;Branco/Nulo;;;
+2021-01-03;IDEIA;Ciro;;;
+2021-01-03;IDEIA;Doria;;;
+2021-01-03;IDEIA;Indecisos;;;
+2021-01-03;IDEIA;Lula;;;
+2021-01-10;IDEIA;Bolsonaro;;;
+2021-01-10;IDEIA;Branco/Nulo;;;
+2021-01-10;IDEIA;Ciro;;;
+2021-01-10;IDEIA;Doria;;;
+2021-01-10;IDEIA;Indecisos;;;
+2021-01-10;IDEIA;Lula;;;
+2021-01-17;IDEIA;Bolsonaro;;;
+2021-01-17;IDEIA;Branco/Nulo;;;
+2021-01-17;IDEIA;Ciro;;;
+2021-01-17;IDEIA;Doria;;;
+2021-01-17;IDEIA;Indecisos;;;
+2021-01-17;IDEIA;Lula;;;
+2021-01-24;IDEIA;Bolsonaro;;;
+2021-01-24;IDEIA;Branco/Nulo;;;
+2021-01-24;IDEIA;Ciro;;;
+2021-01-24;IDEIA;Doria;;;
+2021-01-24;IDEIA;Indecisos;;;
+2021-01-24;IDEIA;Lula;;;
+2021-01-31;IDEIA;Bolsonaro;;;
+2021-01-31;IDEIA;Branco/Nulo;;;
+2021-01-31;IDEIA;Ciro;;;
+2021-01-31;IDEIA;Doria;;;
+2021-01-31;IDEIA;Indecisos;;;
+2021-01-31;IDEIA;Lula;;;
+2021-02-07;IDEIA;Bolsonaro;;;
+2021-02-07;IDEIA;Branco/Nulo;;;
+2021-02-07;IDEIA;Ciro;;;
+2021-02-07;IDEIA;Doria;;;
+2021-02-07;IDEIA;Indecisos;;;
+2021-02-07;IDEIA;Lula;;;
+2021-02-14;IDEIA;Bolsonaro;;;
+2021-02-14;IDEIA;Branco/Nulo;;;
+2021-02-14;IDEIA;Ciro;;;
+2021-02-14;IDEIA;Doria;;;
+2021-02-14;IDEIA;Indecisos;;;
+2021-02-14;IDEIA;Lula;;;
+2021-02-21;IDEIA;Bolsonaro;;;
+2021-02-21;IDEIA;Branco/Nulo;;;
+2021-02-21;IDEIA;Ciro;;;
+2021-02-21;IDEIA;Doria;;;
+2021-02-21;IDEIA;Indecisos;;;
+2021-02-21;IDEIA;Lula;;;
+2021-02-28;IDEIA;Bolsonaro;;;
+2021-02-28;IDEIA;Branco/Nulo;;;
+2021-02-28;IDEIA;Ciro;;;
+2021-02-28;IDEIA;Doria;;;
+2021-02-28;IDEIA;Indecisos;;;
+2021-02-28;IDEIA;Lula;;;
+2021-03-07;IDEIA;Bolsonaro;;;
+2021-03-07;IDEIA;Branco/Nulo;;;
+2021-03-07;IDEIA;Ciro;;;
+2021-03-07;IDEIA;Doria;;;
+2021-03-07;IDEIA;Indecisos;;;
+2021-03-07;IDEIA;Lula;;;
+2021-03-14;IDEIA;Bolsonaro;;;
+2021-03-14;IDEIA;Branco/Nulo;;;
+2021-03-14;IDEIA;Ciro;;;
+2021-03-14;IDEIA;Doria;;;
+2021-03-14;IDEIA;Indecisos;;;
+2021-03-14;IDEIA;Lula;;;
+2021-03-21;IDEIA;Bolsonaro;;;
+2021-03-21;IDEIA;Branco/Nulo;;;
+2021-03-21;IDEIA;Ciro;;;
+2021-03-21;IDEIA;Doria;;;
+2021-03-21;IDEIA;Indecisos;;;
+2021-03-21;IDEIA;Lula;;;
+2021-03-28;IDEIA;Bolsonaro;;;
+2021-03-28;IDEIA;Branco/Nulo;;;
+2021-03-28;IDEIA;Ciro;;;
+2021-03-28;IDEIA;Doria;;;
+2021-03-28;IDEIA;Indecisos;;;
+2021-03-28;IDEIA;Lula;;;
+2021-04-04;IDEIA;Bolsonaro;;;
+2021-04-04;IDEIA;Branco/Nulo;;;
+2021-04-04;IDEIA;Ciro;;;
+2021-04-04;IDEIA;Doria;;;
+2021-04-04;IDEIA;Indecisos;;;
+2021-04-04;IDEIA;Lula;;;
+2021-04-11;IDEIA;Bolsonaro;;;
+2021-04-11;IDEIA;Branco/Nulo;;;
+2021-04-11;IDEIA;Ciro;;;
+2021-04-11;IDEIA;Doria;;;
+2021-04-11;IDEIA;Indecisos;;;
+2021-04-11;IDEIA;Lula;;;
+2021-04-18;IDEIA;Bolsonaro;;;
+2021-04-18;IDEIA;Branco/Nulo;;;
+2021-04-18;IDEIA;Ciro;;;
+2021-04-18;IDEIA;Doria;;;
+2021-04-18;IDEIA;Indecisos;;;
+2021-04-18;IDEIA;Lula;;;
+2021-04-25;IDEIA;Bolsonaro;1.0;0.32;1200.0
+2021-04-25;IDEIA;Branco/Nulo;1.0;0.04;1200.0
+2021-04-25;IDEIA;Ciro;1.0;0.09;1200.0
+2021-04-25;IDEIA;Doria;1.0;0.04;1200.0
+2021-04-25;IDEIA;Indecisos;1.0;0.05;1200.0
+2021-04-25;IDEIA;Lula;1.0;0.33;1200.0
+2021-05-02;IDEIA;Bolsonaro;;;
+2021-05-02;IDEIA;Branco/Nulo;;;
+2021-05-02;IDEIA;Ciro;;;
+2021-05-02;IDEIA;Doria;;;
+2021-05-02;IDEIA;Indecisos;;;
+2021-05-02;IDEIA;Lula;;;
+2021-05-09;IDEIA;Bolsonaro;;;
+2021-05-09;IDEIA;Branco/Nulo;;;
+2021-05-09;IDEIA;Ciro;;;
+2021-05-09;IDEIA;Doria;;;
+2021-05-09;IDEIA;Indecisos;;;
+2021-05-09;IDEIA;Lula;;;
+2021-05-16;IDEIA;Bolsonaro;;;
+2021-05-16;IDEIA;Branco/Nulo;;;
+2021-05-16;IDEIA;Ciro;;;
+2021-05-16;IDEIA;Doria;;;
+2021-05-16;IDEIA;Indecisos;;;
+2021-05-16;IDEIA;Lula;;;
+2021-05-23;IDEIA;Bolsonaro;;;
+2021-05-23;IDEIA;Branco/Nulo;;;
+2021-05-23;IDEIA;Ciro;;;
+2021-05-23;IDEIA;Doria;;;
+2021-05-23;IDEIA;Indecisos;;;
+2021-05-23;IDEIA;Lula;;;
+2021-05-30;IDEIA;Bolsonaro;;;
+2021-05-30;IDEIA;Branco/Nulo;;;
+2021-05-30;IDEIA;Ciro;;;
+2021-05-30;IDEIA;Doria;;;
+2021-05-30;IDEIA;Indecisos;;;
+2021-05-30;IDEIA;Lula;;;
+2021-06-06;IDEIA;Bolsonaro;;;
+2021-06-06;IDEIA;Branco/Nulo;;;
+2021-06-06;IDEIA;Ciro;;;
+2021-06-06;IDEIA;Doria;;;
+2021-06-06;IDEIA;Indecisos;;;
+2021-06-06;IDEIA;Lula;;;
+2021-06-13;IDEIA;Bolsonaro;;;
+2021-06-13;IDEIA;Branco/Nulo;;;
+2021-06-13;IDEIA;Ciro;;;
+2021-06-13;IDEIA;Doria;;;
+2021-06-13;IDEIA;Indecisos;;;
+2021-06-13;IDEIA;Lula;;;
+2021-06-20;IDEIA;Bolsonaro;;;
+2021-06-20;IDEIA;Branco/Nulo;;;
+2021-06-20;IDEIA;Ciro;;;
+2021-06-20;IDEIA;Doria;;;
+2021-06-20;IDEIA;Indecisos;;;
+2021-06-20;IDEIA;Lula;;;
+2021-06-27;IDEIA;Bolsonaro;1.0;0.31;1200.0
+2021-06-27;IDEIA;Branco/Nulo;1.0;0.01;1200.0
+2021-06-27;IDEIA;Ciro;1.0;0.14;1200.0
+2021-06-27;IDEIA;Doria;1.0;0.08;1200.0
+2021-06-27;IDEIA;Indecisos;1.0;0.07;1200.0
+2021-06-27;IDEIA;Lula;1.0;0.39;1200.0
+2021-06-27;Ipec;Bolsonaro;1.0;0.23;2002.0
+2021-06-27;Ipec;Branco/Nulo;1.0;0.1;2002.0
+2021-06-27;Ipec;Ciro;1.0;0.07;2002.0
+2021-06-27;Ipec;Doria;1.0;0.05;2002.0
+2021-06-27;Ipec;Indecisos;1.0;0.03;2002.0
+2021-06-27;Ipec;Lula;1.0;0.49;2002.0
+2021-07-04;Ipec;Bolsonaro;;;
+2021-07-04;Ipec;Branco/Nulo;;;
+2021-07-04;Ipec;Ciro;;;
+2021-07-04;Ipec;Doria;;;
+2021-07-04;Ipec;Indecisos;;;
+2021-07-04;Ipec;Lula;;;
+2021-07-11;Ipec;Bolsonaro;;;
+2021-07-11;Ipec;Branco/Nulo;;;
+2021-07-11;Ipec;Ciro;;;
+2021-07-11;Ipec;Doria;;;
+2021-07-11;Ipec;Indecisos;;;
+2021-07-11;Ipec;Lula;;;
+2021-07-18;Ipec;Bolsonaro;;;
+2021-07-18;Ipec;Branco/Nulo;;;
+2021-07-18;Ipec;Ciro;;;
+2021-07-18;Ipec;Doria;;;
+2021-07-18;Ipec;Indecisos;;;
+2021-07-18;Ipec;Lula;;;
+2021-07-25;Ipec;Bolsonaro;;;
+2021-07-25;Ipec;Branco/Nulo;;;
+2021-07-25;Ipec;Ciro;;;
+2021-07-25;Ipec;Doria;;;
+2021-07-25;Ipec;Indecisos;;;
+2021-07-25;Ipec;Lula;;;
+2021-08-01;Ipec;Bolsonaro;;;
+2021-08-01;Ipec;Branco/Nulo;;;
+2021-08-01;Ipec;Ciro;;;
+2021-08-01;Ipec;Doria;;;
+2021-08-01;Ipec;Indecisos;;;
+2021-08-01;Ipec;Lula;;;
+2021-08-08;Ipec;Bolsonaro;;;
+2021-08-08;Ipec;Branco/Nulo;;;
+2021-08-08;Ipec;Ciro;;;
+2021-08-08;Ipec;Doria;;;
+2021-08-08;Ipec;Indecisos;;;
+2021-08-08;Ipec;Lula;;;
+2021-08-15;Ipec;Bolsonaro;;;
+2021-08-15;Ipec;Branco/Nulo;;;
+2021-08-15;Ipec;Ciro;;;
+2021-08-15;Ipec;Doria;;;
+2021-08-15;Ipec;Indecisos;;;
+2021-08-15;Ipec;Lula;;;
+2021-08-22;Ipec;Bolsonaro;;;
+2021-08-22;Ipec;Branco/Nulo;;;
+2021-08-22;Ipec;Ciro;;;
+2021-08-22;Ipec;Doria;;;
+2021-08-22;Ipec;Indecisos;;;
+2021-08-22;Ipec;Lula;;;
+2021-08-29;Ipec;Bolsonaro;;;
+2021-08-29;Ipec;Branco/Nulo;;;
+2021-08-29;Ipec;Ciro;;;
+2021-08-29;Ipec;Doria;;;
+2021-08-29;Ipec;Indecisos;;;
+2021-08-29;Ipec;Lula;;;
+2021-09-05;Ipec;Bolsonaro;;;
+2021-09-05;Ipec;Branco/Nulo;;;
+2021-09-05;Ipec;Ciro;;;
+2021-09-05;Ipec;Doria;;;
+2021-09-05;Ipec;Indecisos;;;
+2021-09-05;Ipec;Lula;;;
+2021-09-12;Ipec;Bolsonaro;;;
+2021-09-12;Ipec;Branco/Nulo;;;
+2021-09-12;Ipec;Ciro;;;
+2021-09-12;Ipec;Doria;;;
+2021-09-12;Ipec;Indecisos;;;
+2021-09-12;Ipec;Lula;;;
+2021-09-19;Ipec;Bolsonaro;;;
+2021-09-19;Ipec;Branco/Nulo;;;
+2021-09-19;Ipec;Ciro;;;
+2021-09-19;Ipec;Doria;;;
+2021-09-19;Ipec;Indecisos;;;
+2021-09-19;Ipec;Lula;;;
+2021-09-26;Ipec;Bolsonaro;1.0;0.23;2002.0
+2021-09-26;Ipec;Branco/Nulo;1.0;0.1;2002.0
+2021-09-26;Ipec;Ciro;1.0;0.08;2002.0
+2021-09-26;Ipec;Doria;1.0;0.03;2002.0
+2021-09-26;Ipec;Indecisos;1.0;0.04;2002.0
+2021-09-26;Ipec;Lula;1.0;0.48;2002.0
+2021-09-26;Ipec;Moro;1.0;0.05;2002.0
+2021-06-06;Ipespe;Branco/Nulo;1.0;0.15;1000.0
+2021-06-13;Ipespe;Bolsonaro;1.0;0.28;1000.0
+2021-06-13;Ipespe;Branco/Nulo;;;
+2021-06-13;Ipespe;Ciro;1.0;0.06;1000.0
+2021-06-13;Ipespe;Doria;1.0;0.03;1000.0
+2021-06-13;Ipespe;Lula;1.0;0.32;1000.0
+2021-06-13;Ipespe;Moro;1.0;0.07;1000.0
+2021-06-20;Ipespe;Bolsonaro;;;
+2021-06-20;Ipespe;Branco/Nulo;;;
+2021-06-20;Ipespe;Ciro;;;
+2021-06-20;Ipespe;Doria;;;
+2021-06-20;Ipespe;Lula;;;
+2021-06-20;Ipespe;Moro;;;
+2021-06-27;Ipespe;Bolsonaro;;;
+2021-06-27;Ipespe;Branco/Nulo;;;
+2021-06-27;Ipespe;Ciro;;;
+2021-06-27;Ipespe;Doria;;;
+2021-06-27;Ipespe;Lula;;;
+2021-06-27;Ipespe;Moro;;;
+2021-07-04;Ipespe;Bolsonaro;;;
+2021-07-04;Ipespe;Branco/Nulo;;;
+2021-07-04;Ipespe;Ciro;;;
+2021-07-04;Ipespe;Doria;;;
+2021-07-04;Ipespe;Lula;;;
+2021-07-04;Ipespe;Moro;;;
+2021-07-11;Ipespe;Bolsonaro;1.0;0.26;1000.0
+2021-07-11;Ipespe;Branco/Nulo;1.0;0.11;1000.0
+2021-07-11;Ipespe;Ciro;1.0;0.1;1000.0
+2021-07-11;Ipespe;Doria;1.0;0.02;1000.0
+2021-07-11;Ipespe;Eduardo Leite;1.0;0.04;1000.0
+2021-07-11;Ipespe;Lula;1.0;0.38;1000.0
+2021-07-11;Ipespe;Moro;1.0;0.09;1000.0
+2021-07-18;Ipespe;Bolsonaro;;;
+2021-07-18;Ipespe;Branco/Nulo;;;
+2021-07-18;Ipespe;Ciro;;;
+2021-07-18;Ipespe;Doria;;;
+2021-07-18;Ipespe;Eduardo Leite;;;
+2021-07-18;Ipespe;Lula;;;
+2021-07-18;Ipespe;Moro;;;
+2021-07-25;Ipespe;Bolsonaro;;;
+2021-07-25;Ipespe;Branco/Nulo;;;
+2021-07-25;Ipespe;Ciro;;;
+2021-07-25;Ipespe;Doria;;;
+2021-07-25;Ipespe;Eduardo Leite;;;
+2021-07-25;Ipespe;Lula;;;
+2021-07-25;Ipespe;Moro;;;
+2021-08-01;Ipespe;Bolsonaro;;;
+2021-08-01;Ipespe;Branco/Nulo;;;
+2021-08-01;Ipespe;Ciro;;;
+2021-08-01;Ipespe;Doria;;;
+2021-08-01;Ipespe;Eduardo Leite;;;
+2021-08-01;Ipespe;Lula;;;
+2021-08-01;Ipespe;Moro;;;
+2021-08-08;Ipespe;Bolsonaro;;;
+2021-08-08;Ipespe;Branco/Nulo;;;
+2021-08-08;Ipespe;Ciro;;;
+2021-08-08;Ipespe;Doria;;;
+2021-08-08;Ipespe;Eduardo Leite;;;
+2021-08-08;Ipespe;Lula;;;
+2021-08-08;Ipespe;Moro;;;
+2021-08-15;Ipespe;Bolsonaro;;;
+2021-08-15;Ipespe;Branco/Nulo;;;
+2021-08-15;Ipespe;Ciro;;;
+2021-08-15;Ipespe;Doria;;;
+2021-08-15;Ipespe;Eduardo Leite;;;
+2021-08-15;Ipespe;Lula;;;
+2021-08-15;Ipespe;Moro;;;
+2021-08-22;Ipespe;Bolsonaro;;;
+2021-08-22;Ipespe;Branco/Nulo;;;
+2021-08-22;Ipespe;Ciro;;;
+2021-08-22;Ipespe;Doria;;;
+2021-08-22;Ipespe;Eduardo Leite;;;
+2021-08-22;Ipespe;Lula;;;
+2021-08-22;Ipespe;Moro;;;
+2021-08-29;Ipespe;Bolsonaro;;;
+2021-08-29;Ipespe;Branco/Nulo;;;
+2021-08-29;Ipespe;Ciro;;;
+2021-08-29;Ipespe;Doria;;;
+2021-08-29;Ipespe;Eduardo Leite;;;
+2021-08-29;Ipespe;Lula;;;
+2021-08-29;Ipespe;Moro;;;
+2021-09-05;Ipespe;Bolsonaro;;;
+2021-09-05;Ipespe;Branco/Nulo;;;
+2021-09-05;Ipespe;Ciro;;;
+2021-09-05;Ipespe;Doria;;;
+2021-09-05;Ipespe;Eduardo Leite;;;
+2021-09-05;Ipespe;Lula;;;
+2021-09-05;Ipespe;Moro;;;
+2021-09-12;Ipespe;Bolsonaro;;;
+2021-09-12;Ipespe;Branco/Nulo;;;
+2021-09-12;Ipespe;Ciro;;;
+2021-09-12;Ipespe;Doria;;;
+2021-09-12;Ipespe;Eduardo Leite;;;
+2021-09-12;Ipespe;Lula;;;
+2021-09-12;Ipespe;Moro;;;
+2021-09-19;Ipespe;Bolsonaro;;;
+2021-09-19;Ipespe;Branco/Nulo;;;
+2021-09-19;Ipespe;Ciro;;;
+2021-09-19;Ipespe;Doria;;;
+2021-09-19;Ipespe;Eduardo Leite;;;
+2021-09-19;Ipespe;Lula;;;
+2021-09-19;Ipespe;Moro;;;
+2021-09-26;Ipespe;Bolsonaro;;;
+2021-09-26;Ipespe;Branco/Nulo;;;
+2021-09-26;Ipespe;Ciro;;;
+2021-09-26;Ipespe;Doria;;;
+2021-09-26;Ipespe;Eduardo Leite;;;
+2021-09-26;Ipespe;Lula;;;
+2021-09-26;Ipespe;Moro;;;
+2021-10-03;Ipespe;Bolsonaro;;;
+2021-10-03;Ipespe;Branco/Nulo;;;
+2021-10-03;Ipespe;Ciro;;;
+2021-10-03;Ipespe;Doria;;;
+2021-10-03;Ipespe;Eduardo Leite;;;
+2021-10-03;Ipespe;Lula;;;
+2021-10-03;Ipespe;Moro;;;
+2021-10-10;Ipespe;Bolsonaro;;;
+2021-10-10;Ipespe;Branco/Nulo;;;
+2021-10-10;Ipespe;Ciro;;;
+2021-10-10;Ipespe;Doria;;;
+2021-10-10;Ipespe;Eduardo Leite;;;
+2021-10-10;Ipespe;Lula;;;
+2021-10-10;Ipespe;Moro;;;
+2021-10-17;Ipespe;Bolsonaro;;;
+2021-10-17;Ipespe;Branco/Nulo;;;
+2021-10-17;Ipespe;Ciro;;;
+2021-10-17;Ipespe;Doria;;;
+2021-10-17;Ipespe;Eduardo Leite;;;
+2021-10-17;Ipespe;Lula;;;
+2021-10-17;Ipespe;Moro;;;
+2021-10-24;Ipespe;Bolsonaro;;;
+2021-10-24;Ipespe;Branco/Nulo;;;
+2021-10-24;Ipespe;Ciro;;;
+2021-10-24;Ipespe;Doria;;;
+2021-10-24;Ipespe;Eduardo Leite;;;
+2021-10-24;Ipespe;Lula;;;
+2021-10-24;Ipespe;Moro;;;
+2021-10-31;Ipespe;Bolsonaro;1.0;0.25;1000.0
+2021-10-31;Ipespe;Branco/Nulo;1.0;0.03;1000.0
+2021-10-31;Ipespe;Ciro;1.0;0.09;1000.0
+2021-10-31;Ipespe;Doria;1.0;0.04;1000.0
+2021-10-31;Ipespe;Eduardo Leite;1.0;0.03;1000.0
+2021-10-31;Ipespe;Indecisos;1.0;0.02;1000.0
+2021-10-31;Ipespe;Lula;1.0;0.41;1000.0
+2021-10-31;Ipespe;Moro;1.0;0.08;1000.0
+2021-07-11;Orbis;Bolsonaro;1.0;0.335;2992.0
+2021-07-11;Orbis;Branco/Nulo;1.0;0.045;2992.0
+2021-07-11;Orbis;Ciro;1.0;0.068;2992.0
+2021-07-11;Orbis;Doria;1.0;0.031;2992.0
+2021-07-11;Orbis;Indecisos;1.0;0.059;2992.0
+2021-07-11;Orbis;Lula;1.0;0.357;2992.0
+2021-07-11;Orbis;Moro;1.0;0.08;2992.0
+2021-03-07;Paraná;Bolsonaro;1.0;0.319;2080.0
+2021-03-07;Paraná;Branco/Nulo;1.0;0.125;2080.0
+2021-03-07;Paraná;Ciro;1.0;0.1;2080.0
+2021-03-07;Paraná;Doria;1.0;0.053;2080.0
+2021-03-07;Paraná;Indecisos;1.0;0.043;2080.0
+2021-03-07;Paraná;Moro;1.0;0.115;2080.0
+2021-03-14;Paraná;Bolsonaro;;;
+2021-03-14;Paraná;Branco/Nulo;;;
+2021-03-14;Paraná;Ciro;;;
+2021-03-14;Paraná;Doria;;;
+2021-03-14;Paraná;Indecisos;;;
+2021-03-14;Paraná;Moro;;;
+2021-03-21;Paraná;Bolsonaro;;;
+2021-03-21;Paraná;Branco/Nulo;;;
+2021-03-21;Paraná;Ciro;;;
+2021-03-21;Paraná;Doria;;;
+2021-03-21;Paraná;Indecisos;;;
+2021-03-21;Paraná;Moro;;;
+2021-03-28;Paraná;Bolsonaro;;;
+2021-03-28;Paraná;Branco/Nulo;;;
+2021-03-28;Paraná;Ciro;;;
+2021-03-28;Paraná;Doria;;;
+2021-03-28;Paraná;Indecisos;;;
+2021-03-28;Paraná;Moro;;;
+2021-04-04;Paraná;Bolsonaro;;;
+2021-04-04;Paraná;Branco/Nulo;;;
+2021-04-04;Paraná;Ciro;;;
+2021-04-04;Paraná;Doria;;;
+2021-04-04;Paraná;Indecisos;;;
+2021-04-04;Paraná;Moro;;;
+2021-04-11;Paraná;Bolsonaro;;;
+2021-04-11;Paraná;Branco/Nulo;;;
+2021-04-11;Paraná;Ciro;;;
+2021-04-11;Paraná;Doria;;;
+2021-04-11;Paraná;Indecisos;;;
+2021-04-11;Paraná;Moro;;;
+2021-04-18;Paraná;Bolsonaro;;;
+2021-04-18;Paraná;Branco/Nulo;;;
+2021-04-18;Paraná;Ciro;;;
+2021-04-18;Paraná;Doria;;;
+2021-04-18;Paraná;Indecisos;;;
+2021-04-18;Paraná;Moro;;;
+2021-04-25;Paraná;Bolsonaro;;;
+2021-04-25;Paraná;Branco/Nulo;;;
+2021-04-25;Paraná;Ciro;;;
+2021-04-25;Paraná;Doria;;;
+2021-04-25;Paraná;Indecisos;;;
+2021-04-25;Paraná;Moro;;;
+2021-05-02;Paraná;Bolsonaro;;;
+2021-05-02;Paraná;Branco/Nulo;;;
+2021-05-02;Paraná;Ciro;;;
+2021-05-02;Paraná;Doria;;;
+2021-05-02;Paraná;Indecisos;;;
+2021-05-02;Paraná;Moro;;;
+2021-05-09;Paraná;Bolsonaro;;;
+2021-05-09;Paraná;Branco/Nulo;;;
+2021-05-09;Paraná;Ciro;;;
+2021-05-09;Paraná;Doria;;;
+2021-05-09;Paraná;Indecisos;;;
+2021-05-09;Paraná;Moro;;;
+2021-05-16;Paraná;Bolsonaro;;;
+2021-05-16;Paraná;Branco/Nulo;;;
+2021-05-16;Paraná;Ciro;;;
+2021-05-16;Paraná;Doria;;;
+2021-05-16;Paraná;Indecisos;;;
+2021-05-16;Paraná;Moro;;;
+2021-05-23;Paraná;Bolsonaro;;;
+2021-05-23;Paraná;Branco/Nulo;;;
+2021-05-23;Paraná;Ciro;;;
+2021-05-23;Paraná;Doria;;;
+2021-05-23;Paraná;Indecisos;;;
+2021-05-23;Paraná;Moro;;;
+2021-05-30;Paraná;Bolsonaro;;;
+2021-05-30;Paraná;Branco/Nulo;;;
+2021-05-30;Paraná;Ciro;;;
+2021-05-30;Paraná;Doria;;;
+2021-05-30;Paraná;Indecisos;;;
+2021-05-30;Paraná;Moro;;;
+2021-06-06;Paraná;Bolsonaro;;;
+2021-06-06;Paraná;Branco/Nulo;;;
+2021-06-06;Paraná;Ciro;;;
+2021-06-06;Paraná;Doria;;;
+2021-06-06;Paraná;Indecisos;;;
+2021-06-06;Paraná;Moro;;;
+2021-06-13;Paraná;Bolsonaro;;;
+2021-06-13;Paraná;Branco/Nulo;;;
+2021-06-13;Paraná;Ciro;;;
+2021-06-13;Paraná;Doria;;;
+2021-06-13;Paraná;Indecisos;;;
+2021-06-13;Paraná;Moro;;;
+2021-06-20;Paraná;Bolsonaro;;;
+2021-06-20;Paraná;Branco/Nulo;;;
+2021-06-20;Paraná;Ciro;;;
+2021-06-20;Paraná;Doria;;;
+2021-06-20;Paraná;Indecisos;;;
+2021-06-20;Paraná;Moro;;;
+2021-06-27;Paraná;Bolsonaro;;;
+2021-06-27;Paraná;Branco/Nulo;;;
+2021-06-27;Paraná;Ciro;;;
+2021-06-27;Paraná;Doria;;;
+2021-06-27;Paraná;Indecisos;;;
+2021-06-27;Paraná;Moro;;;
+2021-07-04;Paraná;Bolsonaro;;;
+2021-07-04;Paraná;Branco/Nulo;;;
+2021-07-04;Paraná;Ciro;;;
+2021-07-04;Paraná;Doria;;;
+2021-07-04;Paraná;Indecisos;;;
+2021-07-04;Paraná;Moro;;;
+2021-07-11;Paraná;Bolsonaro;;;
+2021-07-11;Paraná;Branco/Nulo;;;
+2021-07-11;Paraná;Ciro;;;
+2021-07-11;Paraná;Doria;;;
+2021-07-11;Paraná;Indecisos;;;
+2021-07-11;Paraná;Moro;;;
+2021-07-18;Paraná;Bolsonaro;;;
+2021-07-18;Paraná;Branco/Nulo;;;
+2021-07-18;Paraná;Ciro;;;
+2021-07-18;Paraná;Doria;;;
+2021-07-18;Paraná;Indecisos;;;
+2021-07-18;Paraná;Moro;;;
+2021-07-25;Paraná;Bolsonaro;;;
+2021-07-25;Paraná;Branco/Nulo;;;
+2021-07-25;Paraná;Ciro;;;
+2021-07-25;Paraná;Doria;;;
+2021-07-25;Paraná;Indecisos;;;
+2021-07-25;Paraná;Moro;;;
+2021-08-01;Paraná;Bolsonaro;;;
+2021-08-01;Paraná;Branco/Nulo;;;
+2021-08-01;Paraná;Ciro;;;
+2021-08-01;Paraná;Doria;;;
+2021-08-01;Paraná;Indecisos;;;
+2021-08-01;Paraná;Moro;;;
+2021-08-08;Paraná;Bolsonaro;;;
+2021-08-08;Paraná;Branco/Nulo;;;
+2021-08-08;Paraná;Ciro;;;
+2021-08-08;Paraná;Doria;;;
+2021-08-08;Paraná;Indecisos;;;
+2021-08-08;Paraná;Moro;;;
+2021-08-15;Paraná;Bolsonaro;;;
+2021-08-15;Paraná;Branco/Nulo;;;
+2021-08-15;Paraná;Ciro;;;
+2021-08-15;Paraná;Doria;;;
+2021-08-15;Paraná;Indecisos;;;
+2021-08-15;Paraná;Moro;;;
+2021-08-22;Paraná;Bolsonaro;;;
+2021-08-22;Paraná;Branco/Nulo;;;
+2021-08-22;Paraná;Ciro;;;
+2021-08-22;Paraná;Doria;;;
+2021-08-22;Paraná;Indecisos;;;
+2021-08-22;Paraná;Moro;;;
+2021-08-29;Paraná;Bolsonaro;;;
+2021-08-29;Paraná;Branco/Nulo;;;
+2021-08-29;Paraná;Ciro;;;
+2021-08-29;Paraná;Doria;;;
+2021-08-29;Paraná;Indecisos;;;
+2021-08-29;Paraná;Moro;;;
+2021-09-05;Paraná;Bolsonaro;;;
+2021-09-05;Paraná;Branco/Nulo;;;
+2021-09-05;Paraná;Ciro;;;
+2021-09-05;Paraná;Doria;;;
+2021-09-05;Paraná;Indecisos;;;
+2021-09-05;Paraná;Moro;;;
+2021-09-12;Paraná;Bolsonaro;;;
+2021-09-12;Paraná;Branco/Nulo;;;
+2021-09-12;Paraná;Ciro;;;
+2021-09-12;Paraná;Doria;;;
+2021-09-12;Paraná;Indecisos;;;
+2021-09-12;Paraná;Moro;;;
+2021-09-19;Paraná;Bolsonaro;;;
+2021-09-19;Paraná;Branco/Nulo;;;
+2021-09-19;Paraná;Ciro;;;
+2021-09-19;Paraná;Doria;;;
+2021-09-19;Paraná;Indecisos;;;
+2021-09-19;Paraná;Moro;;;
+2021-09-26;Paraná;Bolsonaro;;;
+2021-09-26;Paraná;Branco/Nulo;;;
+2021-09-26;Paraná;Ciro;;;
+2021-09-26;Paraná;Doria;;;
+2021-09-26;Paraná;Indecisos;;;
+2021-09-26;Paraná;Moro;;;
+2021-10-03;Paraná;Bolsonaro;;;
+2021-10-03;Paraná;Branco/Nulo;;;
+2021-10-03;Paraná;Ciro;;;
+2021-10-03;Paraná;Doria;;;
+2021-10-03;Paraná;Indecisos;;;
+2021-10-03;Paraná;Moro;;;
+2021-10-10;Paraná;Bolsonaro;;;
+2021-10-10;Paraná;Branco/Nulo;;;
+2021-10-10;Paraná;Ciro;;;
+2021-10-10;Paraná;Doria;;;
+2021-10-10;Paraná;Indecisos;;;
+2021-10-10;Paraná;Moro;;;
+2021-10-17;Paraná;Bolsonaro;;;
+2021-10-17;Paraná;Branco/Nulo;;;
+2021-10-17;Paraná;Ciro;;;
+2021-10-17;Paraná;Doria;;;
+2021-10-17;Paraná;Indecisos;;;
+2021-10-17;Paraná;Moro;;;
+2021-10-24;Paraná;Bolsonaro;;;
+2021-10-24;Paraná;Branco/Nulo;;;
+2021-10-24;Paraná;Ciro;;;
+2021-10-24;Paraná;Doria;;;
+2021-10-24;Paraná;Indecisos;;;
+2021-10-24;Paraná;Moro;;;
+2021-10-31;Paraná;Bolsonaro;;;
+2021-10-31;Paraná;Branco/Nulo;;;
+2021-10-31;Paraná;Ciro;;;
+2021-10-31;Paraná;Doria;;;
+2021-10-31;Paraná;Indecisos;;;
+2021-10-31;Paraná;Moro;;;
+2021-11-07;Paraná;Bolsonaro;;;
+2021-11-07;Paraná;Branco/Nulo;;;
+2021-11-07;Paraná;Ciro;;;
+2021-11-07;Paraná;Doria;;;
+2021-11-07;Paraná;Indecisos;;;
+2021-11-07;Paraná;Moro;;;
+2021-11-14;Paraná;Bolsonaro;;;
+2021-11-14;Paraná;Branco/Nulo;;;
+2021-11-14;Paraná;Ciro;;;
+2021-11-14;Paraná;Doria;;;
+2021-11-14;Paraná;Indecisos;;;
+2021-11-14;Paraná;Moro;;;
+2021-11-21;Paraná;Bolsonaro;1.0;0.292;2020.0
+2021-11-21;Paraná;Branco/Nulo;1.0;0.099;2020.0
+2021-11-21;Paraná;Ciro;1.0;0.061;2020.0
+2021-11-21;Paraná;Doria;1.0;0.031;2020.0
+2021-11-21;Paraná;Eduardo Leite;1.0;0.016;2020.0
+2021-11-21;Paraná;Indecisos;1.0;0.035;2020.0
+2021-11-21;Paraná;Lula;1.0;0.349;2020.0
+2021-11-21;Paraná;Moro;1.0;0.107;2020.0
+2020-12-27;PoderData;Bolsonaro;1.0;0.36;2500.0
+2020-12-27;PoderData;Branco/Nulo;1.0;0.07;2500.0
+2020-12-27;PoderData;Doria;1.0;0.03;2500.0
+2020-12-27;PoderData;Indecisos;1.0;0.05;2500.0
+2020-12-27;PoderData;Moro;1.0;0.07;2500.0
+2021-01-03;PoderData;Bolsonaro;;;
+2021-01-03;PoderData;Branco/Nulo;;;
+2021-01-03;PoderData;Doria;;;
+2021-01-03;PoderData;Indecisos;;;
+2021-01-03;PoderData;Moro;;;
+2021-01-10;PoderData;Bolsonaro;;;
+2021-01-10;PoderData;Branco/Nulo;;;
+2021-01-10;PoderData;Doria;;;
+2021-01-10;PoderData;Indecisos;;;
+2021-01-10;PoderData;Moro;;;
+2021-01-17;PoderData;Bolsonaro;;;
+2021-01-17;PoderData;Branco/Nulo;;;
+2021-01-17;PoderData;Doria;;;
+2021-01-17;PoderData;Indecisos;;;
+2021-01-17;PoderData;Moro;;;
+2021-01-24;PoderData;Bolsonaro;;;
+2021-01-24;PoderData;Branco/Nulo;;;
+2021-01-24;PoderData;Doria;;;
+2021-01-24;PoderData;Indecisos;;;
+2021-01-24;PoderData;Moro;;;
+2021-01-31;PoderData;Bolsonaro;;;
+2021-01-31;PoderData;Branco/Nulo;;;
+2021-01-31;PoderData;Doria;;;
+2021-01-31;PoderData;Indecisos;;;
+2021-01-31;PoderData;Moro;;;
+2021-02-07;PoderData;Bolsonaro;;;
+2021-02-07;PoderData;Branco/Nulo;;;
+2021-02-07;PoderData;Doria;;;
+2021-02-07;PoderData;Indecisos;;;
+2021-02-07;PoderData;Moro;;;
+2021-02-14;PoderData;Bolsonaro;;;
+2021-02-14;PoderData;Branco/Nulo;;;
+2021-02-14;PoderData;Doria;;;
+2021-02-14;PoderData;Indecisos;;;
+2021-02-14;PoderData;Moro;;;
+2021-02-21;PoderData;Bolsonaro;;;
+2021-02-21;PoderData;Branco/Nulo;;;
+2021-02-21;PoderData;Doria;;;
+2021-02-21;PoderData;Indecisos;;;
+2021-02-21;PoderData;Moro;;;
+2021-02-28;PoderData;Bolsonaro;;;
+2021-02-28;PoderData;Branco/Nulo;;;
+2021-02-28;PoderData;Doria;;;
+2021-02-28;PoderData;Indecisos;;;
+2021-02-28;PoderData;Moro;;;
+2021-03-07;PoderData;Bolsonaro;;;
+2021-03-07;PoderData;Branco/Nulo;;;
+2021-03-07;PoderData;Doria;;;
+2021-03-07;PoderData;Indecisos;;;
+2021-03-07;PoderData;Moro;;;
+2021-03-14;PoderData;Bolsonaro;;;
+2021-03-14;PoderData;Branco/Nulo;;;
+2021-03-14;PoderData;Doria;;;
+2021-03-14;PoderData;Indecisos;;;
+2021-03-14;PoderData;Moro;;;
+2021-03-21;PoderData;Bolsonaro;1.0;0.3;3500.0
+2021-03-21;PoderData;Branco/Nulo;1.0;0.1;3500.0
+2021-03-21;PoderData;Ciro;1.0;0.05;3500.0
+2021-03-21;PoderData;Doria;1.0;0.03;3500.0
+2021-03-21;PoderData;Indecisos;1.0;0.03;3500.0
+2021-03-21;PoderData;Lula;1.0;0.34;3500.0
+2021-03-21;PoderData;Moro;1.0;0.06;3500.0
+2021-03-28;PoderData;Bolsonaro;;;
+2021-03-28;PoderData;Branco/Nulo;;;
+2021-03-28;PoderData;Ciro;;;
+2021-03-28;PoderData;Doria;;;
+2021-03-28;PoderData;Indecisos;;;
+2021-03-28;PoderData;Lula;;;
+2021-03-28;PoderData;Moro;;;
+2021-04-04;PoderData;Bolsonaro;;;
+2021-04-04;PoderData;Branco/Nulo;;;
+2021-04-04;PoderData;Ciro;;;
+2021-04-04;PoderData;Doria;;;
+2021-04-04;PoderData;Indecisos;;;
+2021-04-04;PoderData;Lula;;;
+2021-04-04;PoderData;Moro;;;
+2021-04-11;PoderData;Bolsonaro;;;
+2021-04-11;PoderData;Branco/Nulo;;;
+2021-04-11;PoderData;Ciro;;;
+2021-04-11;PoderData;Doria;;;
+2021-04-11;PoderData;Indecisos;;;
+2021-04-11;PoderData;Lula;;;
+2021-04-11;PoderData;Moro;;;
+2021-04-18;PoderData;Bolsonaro;1.0;0.31;3500.0
+2021-04-18;PoderData;Branco/Nulo;1.0;0.07;3500.0
+2021-04-18;PoderData;Ciro;1.0;0.06;3500.0
+2021-04-18;PoderData;Doria;1.0;0.04;3500.0
+2021-04-18;PoderData;Indecisos;1.0;0.02;3500.0
+2021-04-18;PoderData;Lula;1.0;0.34;3500.0
+2021-04-18;PoderData;Moro;1.0;0.03;3500.0
+2021-04-25;PoderData;Bolsonaro;;;
+2021-04-25;PoderData;Branco/Nulo;;;
+2021-04-25;PoderData;Ciro;;;
+2021-04-25;PoderData;Doria;;;
+2021-04-25;PoderData;Indecisos;;;
+2021-04-25;PoderData;Lula;;;
+2021-04-25;PoderData;Moro;;;
+2021-05-02;PoderData;Bolsonaro;;;
+2021-05-02;PoderData;Branco/Nulo;;;
+2021-05-02;PoderData;Ciro;;;
+2021-05-02;PoderData;Doria;;;
+2021-05-02;PoderData;Indecisos;;;
+2021-05-02;PoderData;Lula;;;
+2021-05-02;PoderData;Moro;;;
+2021-05-09;PoderData;Bolsonaro;;;
+2021-05-09;PoderData;Branco/Nulo;;;
+2021-05-09;PoderData;Ciro;;;
+2021-05-09;PoderData;Doria;;;
+2021-05-09;PoderData;Indecisos;;;
+2021-05-09;PoderData;Lula;;;
+2021-05-09;PoderData;Moro;;;
+2021-05-16;PoderData;Bolsonaro;1.0;0.32;2500.0
+2021-05-16;PoderData;Branco/Nulo;1.0;0.08;2500.0
+2021-05-16;PoderData;Ciro;1.0;0.06;2500.0
+2021-05-16;PoderData;Doria;1.0;0.04;2500.0
+2021-05-16;PoderData;Indecisos;1.0;0.02;2500.0
+2021-05-16;PoderData;Lula;1.0;0.32;2500.0
+2021-05-16;PoderData;Moro;;;
+2021-05-23;PoderData;Bolsonaro;;;
+2021-05-23;PoderData;Branco/Nulo;;;
+2021-05-23;PoderData;Ciro;;;
+2021-05-23;PoderData;Doria;;;
+2021-05-23;PoderData;Indecisos;;;
+2021-05-23;PoderData;Lula;;;
+2021-05-23;PoderData;Moro;;;
+2021-05-30;PoderData;Bolsonaro;;;
+2021-05-30;PoderData;Branco/Nulo;;;
+2021-05-30;PoderData;Ciro;;;
+2021-05-30;PoderData;Doria;;;
+2021-05-30;PoderData;Indecisos;;;
+2021-05-30;PoderData;Lula;;;
+2021-05-30;PoderData;Moro;;;
+2021-06-06;PoderData;Bolsonaro;;;
+2021-06-06;PoderData;Branco/Nulo;;;
+2021-06-06;PoderData;Ciro;;;
+2021-06-06;PoderData;Doria;;;
+2021-06-06;PoderData;Indecisos;;;
+2021-06-06;PoderData;Lula;;;
+2021-06-06;PoderData;Moro;;;
+2021-06-13;PoderData;Bolsonaro;1.0;0.33;2500.0
+2021-06-13;PoderData;Branco/Nulo;1.0;0.07;2500.0
+2021-06-13;PoderData;Ciro;1.5;0.27;2500.0
+2021-06-13;PoderData;Doria;1.0;0.03;2500.0
+2021-06-13;PoderData;Indecisos;1.0;0.05;2500.0
+2021-06-13;PoderData;Lula;1.0;0.31;2500.0
+2021-06-13;PoderData;Moro;;;
+2021-06-20;PoderData;Bolsonaro;;;
+2021-06-20;PoderData;Branco/Nulo;;;
+2021-06-20;PoderData;Ciro;;;
+2021-06-20;PoderData;Doria;;;
+2021-06-20;PoderData;Indecisos;;;
+2021-06-20;PoderData;Lula;;;
+2021-06-20;PoderData;Moro;;;
+2021-06-27;PoderData;Bolsonaro;;;
+2021-06-27;PoderData;Branco/Nulo;;;
+2021-06-27;PoderData;Ciro;;;
+2021-06-27;PoderData;Doria;;;
+2021-06-27;PoderData;Indecisos;;;
+2021-06-27;PoderData;Lula;;;
+2021-06-27;PoderData;Moro;;;
+2021-07-04;PoderData;Bolsonaro;;;
+2021-07-04;PoderData;Branco/Nulo;;;
+2021-07-04;PoderData;Ciro;;;
+2021-07-04;PoderData;Doria;;;
+2021-07-04;PoderData;Indecisos;;;
+2021-07-04;PoderData;Lula;;;
+2021-07-04;PoderData;Moro;;;
+2021-07-11;PoderData;Bolsonaro;1.0;0.29;2500.0
+2021-07-11;PoderData;Branco/Nulo;1.0;0.09;2500.0
+2021-07-11;PoderData;Ciro;1.5;0.255;2500.0
+2021-07-11;PoderData;Doria;1.0;0.06;2500.0
+2021-07-11;PoderData;Indecisos;1.0;0.04;2500.0
+2021-07-11;PoderData;Lula;1.0;0.43;2500.0
+2021-07-11;PoderData;Moro;;;
+2021-07-18;PoderData;Bolsonaro;;;
+2021-07-18;PoderData;Branco/Nulo;;;
+2021-07-18;PoderData;Ciro;;;
+2021-07-18;PoderData;Doria;;;
+2021-07-18;PoderData;Indecisos;;;
+2021-07-18;PoderData;Lula;;;
+2021-07-18;PoderData;Moro;;;
+2021-07-25;PoderData;Bolsonaro;;;
+2021-07-25;PoderData;Branco/Nulo;;;
+2021-07-25;PoderData;Ciro;;;
+2021-07-25;PoderData;Doria;;;
+2021-07-25;PoderData;Indecisos;;;
+2021-07-25;PoderData;Lula;;;
+2021-07-25;PoderData;Moro;;;
+2021-08-01;PoderData;Bolsonaro;;;
+2021-08-01;PoderData;Branco/Nulo;;;
+2021-08-01;PoderData;Ciro;;;
+2021-08-01;PoderData;Doria;;;
+2021-08-01;PoderData;Indecisos;;;
+2021-08-01;PoderData;Lula;;;
+2021-08-01;PoderData;Moro;;;
+2021-08-08;PoderData;Bolsonaro;1.0;0.25;2500.0
+2021-08-08;PoderData;Branco/Nulo;1.0;0.06;2500.0
+2021-08-08;PoderData;Ciro;1.0;0.08;2500.0
+2021-08-08;PoderData;Doria;1.0;0.06;2500.0
+2021-08-08;PoderData;Indecisos;1.0;0.05;2500.0
+2021-08-08;PoderData;Lula;1.0;0.39;2500.0
+2021-08-08;PoderData;Moro;;;
+2021-08-15;PoderData;Bolsonaro;;;
+2021-08-15;PoderData;Branco/Nulo;;;
+2021-08-15;PoderData;Ciro;;;
+2021-08-15;PoderData;Doria;;;
+2021-08-15;PoderData;Indecisos;;;
+2021-08-15;PoderData;Lula;;;
+2021-08-15;PoderData;Moro;;;
+2021-08-22;PoderData;Bolsonaro;;;
+2021-08-22;PoderData;Branco/Nulo;;;
+2021-08-22;PoderData;Ciro;;;
+2021-08-22;PoderData;Doria;;;
+2021-08-22;PoderData;Indecisos;;;
+2021-08-22;PoderData;Lula;;;
+2021-08-22;PoderData;Moro;;;
+2021-08-29;PoderData;Bolsonaro;;;
+2021-08-29;PoderData;Branco/Nulo;;;
+2021-08-29;PoderData;Ciro;;;
+2021-08-29;PoderData;Doria;;;
+2021-08-29;PoderData;Indecisos;;;
+2021-08-29;PoderData;Lula;;;
+2021-08-29;PoderData;Moro;;;
+2021-09-05;PoderData;Bolsonaro;1.0;0.28;2500.0
+2021-09-05;PoderData;Branco/Nulo;1.0;0.08;2500.0
+2021-09-05;PoderData;Ciro;1.0;0.08;2500.0
+2021-09-05;PoderData;Doria;1.0;0.04;2500.0
+2021-09-05;PoderData;Indecisos;1.0;0.03;2500.0
+2021-09-05;PoderData;Lula;1.0;0.37;2500.0
+2021-09-05;PoderData;Moro;;;
+2021-09-12;PoderData;Bolsonaro;;;
+2021-09-12;PoderData;Branco/Nulo;;;
+2021-09-12;PoderData;Ciro;;;
+2021-09-12;PoderData;Doria;;;
+2021-09-12;PoderData;Indecisos;;;
+2021-09-12;PoderData;Lula;;;
+2021-09-12;PoderData;Moro;;;
+2021-09-19;PoderData;Bolsonaro;;;
+2021-09-19;PoderData;Branco/Nulo;;;
+2021-09-19;PoderData;Ciro;;;
+2021-09-19;PoderData;Doria;;;
+2021-09-19;PoderData;Indecisos;;;
+2021-09-19;PoderData;Lula;;;
+2021-09-19;PoderData;Moro;;;
+2021-09-26;PoderData;Bolsonaro;;;
+2021-09-26;PoderData;Branco/Nulo;;;
+2021-09-26;PoderData;Ciro;;;
+2021-09-26;PoderData;Doria;;;
+2021-09-26;PoderData;Indecisos;;;
+2021-09-26;PoderData;Lula;;;
+2021-09-26;PoderData;Moro;;;
+2021-10-03;PoderData;Bolsonaro;1.0;0.3;2500.0
+2021-10-03;PoderData;Branco/Nulo;1.0;0.09;2500.0
+2021-10-03;PoderData;Ciro;1.0;0.05;2500.0
+2021-10-03;PoderData;Doria;1.0;0.03;2500.0
+2021-10-03;PoderData;Indecisos;1.0;0.02;2500.0
+2021-10-03;PoderData;Lula;1.0;0.4;2500.0
+2021-10-03;PoderData;Moro;;;
+2021-10-10;PoderData;Bolsonaro;;;
+2021-10-10;PoderData;Branco/Nulo;;;
+2021-10-10;PoderData;Ciro;;;
+2021-10-10;PoderData;Doria;;;
+2021-10-10;PoderData;Indecisos;;;
+2021-10-10;PoderData;Lula;;;
+2021-10-10;PoderData;Moro;;;
+2021-10-17;PoderData;Bolsonaro;;;
+2021-10-17;PoderData;Branco/Nulo;;;
+2021-10-17;PoderData;Ciro;;;
+2021-10-17;PoderData;Doria;;;
+2021-10-17;PoderData;Indecisos;;;
+2021-10-17;PoderData;Lula;;;
+2021-10-17;PoderData;Moro;;;
+2021-10-24;PoderData;Bolsonaro;;;
+2021-10-24;PoderData;Branco/Nulo;;;
+2021-10-24;PoderData;Ciro;;;
+2021-10-24;PoderData;Doria;;;
+2021-10-24;PoderData;Indecisos;;;
+2021-10-24;PoderData;Lula;;;
+2021-10-24;PoderData;Moro;;;
+2021-10-31;PoderData;Bolsonaro;1.0;0.28;2500.0
+2021-10-31;PoderData;Branco/Nulo;1.0;0.07;2500.0
+2021-10-31;PoderData;Ciro;1.0;0.05;2500.0
+2021-10-31;PoderData;Doria;1.0;0.04;2500.0
+2021-10-31;PoderData;Eduardo Leite;1.0;0.03;2500.0
+2021-10-31;PoderData;Indecisos;1.0;0.02;2500.0
+2021-10-31;PoderData;Lula;1.0;0.35;2500.0
+2021-10-31;PoderData;Moro;1.0;0.08;2500.0
+2021-11-07;PoderData;Bolsonaro;;;
+2021-11-07;PoderData;Branco/Nulo;;;
+2021-11-07;PoderData;Ciro;;;
+2021-11-07;PoderData;Doria;;;
+2021-11-07;PoderData;Eduardo Leite;;;
+2021-11-07;PoderData;Indecisos;;;
+2021-11-07;PoderData;Lula;;;
+2021-11-07;PoderData;Moro;;;
+2021-11-14;PoderData;Bolsonaro;;;
+2021-11-14;PoderData;Branco/Nulo;;;
+2021-11-14;PoderData;Ciro;;;
+2021-11-14;PoderData;Doria;;;
+2021-11-14;PoderData;Eduardo Leite;;;
+2021-11-14;PoderData;Indecisos;;;
+2021-11-14;PoderData;Lula;;;
+2021-11-14;PoderData;Moro;;;
+2021-11-21;PoderData;Bolsonaro;;;
+2021-11-21;PoderData;Branco/Nulo;;;
+2021-11-21;PoderData;Ciro;;;
+2021-11-21;PoderData;Doria;;;
+2021-11-21;PoderData;Eduardo Leite;;;
+2021-11-21;PoderData;Indecisos;;;
+2021-11-21;PoderData;Lula;;;
+2021-11-21;PoderData;Moro;;;
+2021-11-28;PoderData;Bolsonaro;1.0;0.27;2500.0
+2021-11-28;PoderData;Branco/Nulo;1.0;0.07;2500.0
+2021-11-28;PoderData;Ciro;1.0;0.09;2500.0
+2021-11-28;PoderData;Doria;1.0;0.05;2500.0
+2021-11-28;PoderData;Eduardo Leite;1.0;0.05;2500.0
+2021-11-28;PoderData;Indecisos;1.0;0.02;2500.0
+2021-11-28;PoderData;Lula;1.0;0.36;2500.0
+2021-11-28;PoderData;Moro;1.0;0.08;2500.0
+2021-11-21;Ponteio;Bolsonaro;1.0;0.24;1000.0
+2021-11-21;Ponteio;Branco/Nulo;1.0;0.1;1000.0
+2021-11-21;Ponteio;Ciro;1.0;0.08;1000.0
+2021-11-21;Ponteio;Doria;1.0;0.03;1000.0
+2021-11-21;Ponteio;Eduardo Leite;1.0;0.02;1000.0
+2021-11-21;Ponteio;Indecisos;1.0;0.05;1000.0
+2021-11-21;Ponteio;Lula;1.0;0.37;1000.0
+2021-11-21;Ponteio;Moro;1.0;0.11;1000.0
+2021-08-01;Quaest;Bolsonaro;1.0;0.29;1500.0
+2021-08-01;Quaest;Branco/Nulo;1.0;0.03;1500.0
+2021-08-01;Quaest;Ciro;1.0;0.1;1500.0
+2021-08-01;Quaest;Doria;1.0;0.05;1500.0
+2021-08-01;Quaest;Eduardo Leite;1.0;0.04;1500.0
+2021-08-01;Quaest;Indecisos;1.0;0.09;1500.0
+2021-08-01;Quaest;Lula;1.0;0.44;1500.0
+2021-08-01;Quaest;Moro;1.0;0.1;1500.0
+2021-08-08;Quaest;Bolsonaro;;;
+2021-08-08;Quaest;Branco/Nulo;;;
+2021-08-08;Quaest;Ciro;;;
+2021-08-08;Quaest;Doria;;;
+2021-08-08;Quaest;Eduardo Leite;;;
+2021-08-08;Quaest;Indecisos;;;
+2021-08-08;Quaest;Lula;;;
+2021-08-08;Quaest;Moro;;;
+2021-08-15;Quaest;Bolsonaro;;;
+2021-08-15;Quaest;Branco/Nulo;;;
+2021-08-15;Quaest;Ciro;;;
+2021-08-15;Quaest;Doria;;;
+2021-08-15;Quaest;Eduardo Leite;;;
+2021-08-15;Quaest;Indecisos;;;
+2021-08-15;Quaest;Lula;;;
+2021-08-15;Quaest;Moro;;;
+2021-08-22;Quaest;Bolsonaro;;;
+2021-08-22;Quaest;Branco/Nulo;;;
+2021-08-22;Quaest;Ciro;;;
+2021-08-22;Quaest;Doria;;;
+2021-08-22;Quaest;Eduardo Leite;;;
+2021-08-22;Quaest;Indecisos;;;
+2021-08-22;Quaest;Lula;;;
+2021-08-22;Quaest;Moro;;;
+2021-08-29;Quaest;Bolsonaro;1.0;0.26;2000.0
+2021-08-29;Quaest;Branco/Nulo;1.0;0.03;2000.0
+2021-08-29;Quaest;Ciro;1.0;0.08;2000.0
+2021-08-29;Quaest;Doria;1.0;0.06;2000.0
+2021-08-29;Quaest;Eduardo Leite;1.0;0.02;2000.0
+2021-08-29;Quaest;Indecisos;1.0;0.09;2000.0
+2021-08-29;Quaest;Lula;1.0;0.46;2000.0
+2021-08-29;Quaest;Moro;;;
+2021-09-05;Quaest;Bolsonaro;;;
+2021-09-05;Quaest;Branco/Nulo;;;
+2021-09-05;Quaest;Ciro;;;
+2021-09-05;Quaest;Doria;;;
+2021-09-05;Quaest;Eduardo Leite;;;
+2021-09-05;Quaest;Indecisos;;;
+2021-09-05;Quaest;Lula;;;
+2021-09-05;Quaest;Moro;;;
+2021-09-12;Quaest;Bolsonaro;;;
+2021-09-12;Quaest;Branco/Nulo;;;
+2021-09-12;Quaest;Ciro;;;
+2021-09-12;Quaest;Doria;;;
+2021-09-12;Quaest;Eduardo Leite;;;
+2021-09-12;Quaest;Indecisos;;;
+2021-09-12;Quaest;Lula;;;
+2021-09-12;Quaest;Moro;;;
+2021-09-19;Quaest;Bolsonaro;;;
+2021-09-19;Quaest;Branco/Nulo;;;
+2021-09-19;Quaest;Ciro;;;
+2021-09-19;Quaest;Doria;;;
+2021-09-19;Quaest;Eduardo Leite;;;
+2021-09-19;Quaest;Indecisos;;;
+2021-09-19;Quaest;Lula;;;
+2021-09-19;Quaest;Moro;;;
+2021-09-26;Quaest;Bolsonaro;;;
+2021-09-26;Quaest;Branco/Nulo;;;
+2021-09-26;Quaest;Ciro;;;
+2021-09-26;Quaest;Doria;;;
+2021-09-26;Quaest;Eduardo Leite;;;
+2021-09-26;Quaest;Indecisos;;;
+2021-09-26;Quaest;Lula;;;
+2021-09-26;Quaest;Moro;;;
+2021-10-03;Quaest;Bolsonaro;1.0;0.24;2048.0
+2021-10-03;Quaest;Branco/Nulo;1.0;0.03;2048.0
+2021-10-03;Quaest;Ciro;1.0;0.1;2048.0
+2021-10-03;Quaest;Doria;1.0;0.06;2048.0
+2021-10-03;Quaest;Eduardo Leite;1.0;0.04;2048.0
+2021-10-03;Quaest;Indecisos;1.0;0.09;2048.0
+2021-10-03;Quaest;Lula;1.0;0.43;2048.0
+2021-10-03;Quaest;Moro;1.0;0.1;2048.0
+2021-10-10;Quaest;Bolsonaro;;;
+2021-10-10;Quaest;Branco/Nulo;;;
+2021-10-10;Quaest;Ciro;;;
+2021-10-10;Quaest;Doria;;;
+2021-10-10;Quaest;Eduardo Leite;;;
+2021-10-10;Quaest;Indecisos;;;
+2021-10-10;Quaest;Lula;;;
+2021-10-10;Quaest;Moro;;;
+2021-10-17;Quaest;Bolsonaro;;;
+2021-10-17;Quaest;Branco/Nulo;;;
+2021-10-17;Quaest;Ciro;;;
+2021-10-17;Quaest;Doria;;;
+2021-10-17;Quaest;Eduardo Leite;;;
+2021-10-17;Quaest;Indecisos;;;
+2021-10-17;Quaest;Lula;;;
+2021-10-17;Quaest;Moro;;;
+2021-10-24;Quaest;Bolsonaro;;;
+2021-10-24;Quaest;Branco/Nulo;;;
+2021-10-24;Quaest;Ciro;;;
+2021-10-24;Quaest;Doria;;;
+2021-10-24;Quaest;Eduardo Leite;;;
+2021-10-24;Quaest;Indecisos;;;
+2021-10-24;Quaest;Lula;;;
+2021-10-24;Quaest;Moro;;;
+2021-10-31;Quaest;Bolsonaro;;;
+2021-10-31;Quaest;Branco/Nulo;;;
+2021-10-31;Quaest;Ciro;;;
+2021-10-31;Quaest;Doria;;;
+2021-10-31;Quaest;Eduardo Leite;;;
+2021-10-31;Quaest;Indecisos;;;
+2021-10-31;Quaest;Lula;;;
+2021-10-31;Quaest;Moro;;;
+2021-11-07;Quaest;Bolsonaro;1.0;0.21;2063.0
+2021-11-07;Quaest;Branco/Nulo;1.0;0.1;2063.0
+2021-11-07;Quaest;Ciro;1.0;0.06;2063.0
+2021-11-07;Quaest;Doria;1.0;0.02;2063.0
+2021-11-07;Quaest;Eduardo Leite;1.0;0.01;2063.0
+2021-11-07;Quaest;Indecisos;1.0;0.04;2063.0
+2021-11-07;Quaest;Lula;1.0;0.48;2063.0
+2021-11-07;Quaest;Moro;1.0;0.08;2063.0
+2021-06-06;Ranking Brasil;Bolsonaro;1.0;0.273;3000.0
+2021-06-06;Ranking Brasil;Branco/Nulo;1.0;0.183;3000.0
+2021-06-06;Ranking Brasil;Ciro;1.0;0.043;3000.0
+2021-06-06;Ranking Brasil;Doria;1.0;0.033;3000.0
+2021-06-06;Ranking Brasil;Lula;1.0;0.321;3000.0
+2021-06-06;Ranking Brasil;Moro;1.0;0.041;3000.0
+2021-06-13;Ranking Brasil;Bolsonaro;;;
+2021-06-13;Ranking Brasil;Branco/Nulo;;;
+2021-06-13;Ranking Brasil;Ciro;;;
+2021-06-13;Ranking Brasil;Doria;;;
+2021-06-13;Ranking Brasil;Lula;;;
+2021-06-13;Ranking Brasil;Moro;;;
+2021-06-20;Ranking Brasil;Bolsonaro;;;
+2021-06-20;Ranking Brasil;Branco/Nulo;;;
+2021-06-20;Ranking Brasil;Ciro;;;
+2021-06-20;Ranking Brasil;Doria;;;
+2021-06-20;Ranking Brasil;Lula;;;
+2021-06-20;Ranking Brasil;Moro;;;
+2021-06-27;Ranking Brasil;Bolsonaro;;;
+2021-06-27;Ranking Brasil;Branco/Nulo;;;
+2021-06-27;Ranking Brasil;Ciro;;;
+2021-06-27;Ranking Brasil;Doria;;;
+2021-06-27;Ranking Brasil;Lula;;;
+2021-06-27;Ranking Brasil;Moro;;;
+2021-07-04;Ranking Brasil;Bolsonaro;;;
+2021-07-04;Ranking Brasil;Branco/Nulo;;;
+2021-07-04;Ranking Brasil;Ciro;;;
+2021-07-04;Ranking Brasil;Doria;;;
+2021-07-04;Ranking Brasil;Lula;;;
+2021-07-04;Ranking Brasil;Moro;;;
+2021-07-11;Ranking Brasil;Bolsonaro;;;
+2021-07-11;Ranking Brasil;Branco/Nulo;;;
+2021-07-11;Ranking Brasil;Ciro;;;
+2021-07-11;Ranking Brasil;Doria;;;
+2021-07-11;Ranking Brasil;Lula;;;
+2021-07-11;Ranking Brasil;Moro;;;
+2021-07-18;Ranking Brasil;Bolsonaro;;;
+2021-07-18;Ranking Brasil;Branco/Nulo;;;
+2021-07-18;Ranking Brasil;Ciro;;;
+2021-07-18;Ranking Brasil;Doria;;;
+2021-07-18;Ranking Brasil;Lula;;;
+2021-07-18;Ranking Brasil;Moro;;;
+2021-07-25;Ranking Brasil;Bolsonaro;;;
+2021-07-25;Ranking Brasil;Branco/Nulo;;;
+2021-07-25;Ranking Brasil;Ciro;;;
+2021-07-25;Ranking Brasil;Doria;;;
+2021-07-25;Ranking Brasil;Lula;;;
+2021-07-25;Ranking Brasil;Moro;;;
+2021-08-01;Ranking Brasil;Bolsonaro;;;
+2021-08-01;Ranking Brasil;Branco/Nulo;;;
+2021-08-01;Ranking Brasil;Ciro;;;
+2021-08-01;Ranking Brasil;Doria;;;
+2021-08-01;Ranking Brasil;Lula;;;
+2021-08-01;Ranking Brasil;Moro;;;
+2021-08-08;Ranking Brasil;Bolsonaro;;;
+2021-08-08;Ranking Brasil;Branco/Nulo;;;
+2021-08-08;Ranking Brasil;Ciro;;;
+2021-08-08;Ranking Brasil;Doria;;;
+2021-08-08;Ranking Brasil;Lula;;;
+2021-08-08;Ranking Brasil;Moro;;;
+2021-08-15;Ranking Brasil;Bolsonaro;;;
+2021-08-15;Ranking Brasil;Branco/Nulo;;;
+2021-08-15;Ranking Brasil;Ciro;;;
+2021-08-15;Ranking Brasil;Doria;;;
+2021-08-15;Ranking Brasil;Lula;;;
+2021-08-15;Ranking Brasil;Moro;;;
+2021-08-22;Ranking Brasil;Bolsonaro;;;
+2021-08-22;Ranking Brasil;Branco/Nulo;;;
+2021-08-22;Ranking Brasil;Ciro;;;
+2021-08-22;Ranking Brasil;Doria;;;
+2021-08-22;Ranking Brasil;Lula;;;
+2021-08-22;Ranking Brasil;Moro;;;
+2021-08-29;Ranking Brasil;Bolsonaro;;;
+2021-08-29;Ranking Brasil;Branco/Nulo;;;
+2021-08-29;Ranking Brasil;Ciro;;;
+2021-08-29;Ranking Brasil;Doria;;;
+2021-08-29;Ranking Brasil;Lula;;;
+2021-08-29;Ranking Brasil;Moro;;;
+2021-09-05;Ranking Brasil;Bolsonaro;;;
+2021-09-05;Ranking Brasil;Branco/Nulo;;;
+2021-09-05;Ranking Brasil;Ciro;;;
+2021-09-05;Ranking Brasil;Doria;;;
+2021-09-05;Ranking Brasil;Lula;;;
+2021-09-05;Ranking Brasil;Moro;;;
+2021-09-12;Ranking Brasil;Bolsonaro;;;
+2021-09-12;Ranking Brasil;Branco/Nulo;;;
+2021-09-12;Ranking Brasil;Ciro;;;
+2021-09-12;Ranking Brasil;Doria;;;
+2021-09-12;Ranking Brasil;Lula;;;
+2021-09-12;Ranking Brasil;Moro;;;
+2021-09-19;Ranking Brasil;Bolsonaro;;;
+2021-09-19;Ranking Brasil;Branco/Nulo;;;
+2021-09-19;Ranking Brasil;Ciro;;;
+2021-09-19;Ranking Brasil;Doria;;;
+2021-09-19;Ranking Brasil;Lula;;;
+2021-09-19;Ranking Brasil;Moro;;;
+2021-09-26;Ranking Brasil;Bolsonaro;1.0;0.271;4000.0
+2021-09-26;Ranking Brasil;Branco/Nulo;1.0;0.152;4000.0
+2021-09-26;Ranking Brasil;Ciro;1.0;0.061;4000.0
+2021-09-26;Ranking Brasil;Doria;1.0;0.032;4000.0
+2021-09-26;Ranking Brasil;Eduardo Leite;1.0;0.017;4000.0
+2021-09-26;Ranking Brasil;Lula;1.0;0.38;4000.0
+2021-09-26;Ranking Brasil;Moro;1.0;0.03;4000.0
+2021-11-07;Vox Populi;Bolsonaro;1.0;0.21;2000.0
+2021-11-07;Vox Populi;Branco/Nulo;1.0;0.1;2000.0
+2021-11-07;Vox Populi;Ciro;1.0;0.04;2000.0
+2021-11-07;Vox Populi;Doria;1.0;0.01;2000.0
+2021-11-07;Vox Populi;Eduardo Leite;1.0;0.01;2000.0
+2021-11-07;Vox Populi;Indecisos;1.0;0.12;2000.0
+2021-11-07;Vox Populi;Lula;1.0;0.44;2000.0
+2021-11-07;Vox Populi;Moro;1.0;0.03;2000.0

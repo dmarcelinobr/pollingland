@@ -1,0 +1,26 @@
+digraph {
+	subgraph cluster14 {
+		he [label="he
+~
+Normal"]
+		label=14 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster66 {
+		mu [label="mu
+~
+GaussianRandomWalk"]
+		label=66 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster297 {
+		likelihood [label="likelihood
+~
+Binomial" style=filled]
+		thetas [label="thetas
+~
+Deterministic" shape=box]
+		label=297 labeljust=r labelloc=b style=rounded
+	}
+	he -> thetas
+	mu -> thetas
+	thetas -> likelihood
+}

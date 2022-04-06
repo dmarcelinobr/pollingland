@@ -1,0 +1,76 @@
+digraph {
+	theta_dispersao [label="theta_dispersao
+~
+Exponential"]
+	baseline [label="baseline
+~
+Normal"]
+	contracoes_pop [label="contracoes_pop
+~
+HalfNormal"]
+	subgraph cluster8 {
+		efeito_presidente_truncado_ [label="efeito_presidente_truncado_
+~
+Normal"]
+		label=8 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster9 {
+		efeito_presidente [label="efeito_presidente
+~
+Deterministic" shape=box]
+		label=9 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster32 {
+		efeito_empresa_truncado_ [label="efeito_empresa_truncado_
+~
+Normal"]
+		label=32 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster33 {
+		efeito_empresa [label="efeito_empresa
+~
+Deterministic" shape=box]
+		label=33 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster46 {
+		efeito_mensal_truncado_ [label="efeito_mensal_truncado_
+~
+Normal"]
+		label=46 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster47 {
+		efeito_mensal [label="efeito_mensal
+~
+Deterministic" shape=box]
+		label=47 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster9 x 46" {
+		rw_choques [label="rw_choques
+~
+Normal"]
+		label="9 x 46" labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster9 x 47" {
+		efeito_mes_presidente [label="efeito_mes_presidente
+~
+Deterministic" shape=box]
+		label="9 x 47" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster706 {
+		likelihood [label="likelihood
+~
+BetaBinomial" style=filled]
+		label=706 labeljust=r labelloc=b style=rounded
+	}
+	efeito_presidente_truncado_ -> efeito_presidente
+	efeito_empresa_truncado_ -> efeito_empresa
+	efeito_mensal_truncado_ -> efeito_mensal
+	rw_choques -> efeito_mes_presidente
+	contracoes_pop -> efeito_mes_presidente
+	efeito_presidente -> likelihood
+	efeito_mensal -> likelihood
+	theta_dispersao -> likelihood
+	efeito_mes_presidente -> likelihood
+	baseline -> likelihood
+	efeito_empresa -> likelihood
+}

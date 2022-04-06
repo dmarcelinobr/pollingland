@@ -1,0 +1,56 @@
+digraph {
+	tendencia [label="tendencia
+~
+Gamma"]
+	log_pib [label="log_pib
+~
+Normal"]
+	amplitude [label="amplitude
+~
+HalfNormal"]
+	lua_de_mel [label="lua_de_mel
+~
+Normal"]
+	theta_dispersao [label="theta_dispersao
+~
+Exponential"]
+	baseline [label="baseline
+~
+Normal"]
+	subgraph cluster321 {
+		observada [label="observada
+~
+BetaBinomial" style=filled]
+		mandato [label="mandato
+~
+Data" shape=box style="rounded, filled"]
+		popularidade [label="popularidade
+~
+Deterministic" shape=box]
+		stdz_log_pib [label="stdz_log_pib
+~
+Data" shape=box style="rounded, filled"]
+		delta_pib [label="delta_pib
+~
+Normal"]
+		gp_tempo [label="gp_tempo
+~
+Deterministic" shape=box]
+		gp_tempo_rotated_ [label="gp_tempo_rotated_
+~
+Normal"]
+		label=321 labeljust=r labelloc=b style=rounded
+	}
+	gp_tempo_rotated_ -> gp_tempo
+	tendencia -> gp_tempo
+	amplitude -> gp_tempo
+	mandato -> popularidade
+	log_pib -> popularidade
+	lua_de_mel -> popularidade
+	stdz_log_pib -> popularidade
+	delta_pib -> popularidade
+	gp_tempo -> popularidade
+	baseline -> popularidade
+	popularidade -> observada
+	theta_dispersao -> observada
+}
