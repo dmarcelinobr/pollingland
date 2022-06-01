@@ -14657,29 +14657,6 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>%%HTML</p>
-<link rel="stylesheet" type="text/css" href="custom.css">
-
-<p>from IPython.display import HTML, display</p>
-<p>def set_background(color):<br>
-    script = (
-        "var cell = this.closest('.jp-CodeCell');"
-        "var editor = cell.querySelector('.jp-Editor');"
-        "editor.style.background='{}';"
-        "this.parentNode.removeChild(this)"
-    ).format(color)</p>
-
-<pre><code>display(HTML('&lt;img src onerror="{}" style="display:none"&gt;'.format(script)))</code></pre>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Prevendo-o-imprevis%C3%ADvel:-agrega%C3%A7%C3%A3o-de-pesquisas-eleitorais-em-2022">Prevendo o imprevis&#237;vel: agrega&#231;&#227;o de pesquisas eleitorais em 2022<a class="anchor-link" href="#Prevendo-o-imprevis%C3%ADvel:-agrega%C3%A7%C3%A3o-de-pesquisas-eleitorais-em-2022">&#182;</a></h1><p>Se você estiver lendo a versão interativa desta apresentação no binder, pressione <code>espaço</code> para mover para o próximo slide.</p>
 
 </div>
@@ -14953,7 +14930,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14972,14 +14949,14 @@ div.jp-OutputPrompt {
     <span class="s1">&#39;p&#39;</span><span class="p">,</span> 
     <span class="n">alpha</span><span class="o">=</span><span class="n">phi</span><span class="o">*</span><span class="n">kappa</span><span class="p">,</span> 
     <span class="n">beta</span><span class="o">=</span><span class="p">(</span><span class="mf">1.0</span><span class="o">-</span><span class="n">phi</span><span class="p">)</span><span class="o">*</span><span class="n">kappa</span><span class="p">,</span> 
-    <span class="n">shape</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">bolsonaro_polls_empresas</span><span class="p">)</span>
+    <span class="n">shape</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">candidato_polls</span><span class="p">)</span>
 <span class="p">)</span>
 
 <span class="n">polls</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Binomial</span><span class="p">(</span>
     <span class="s1">&#39;y&#39;</span><span class="p">,</span> 
-    <span class="n">n</span><span class="o">=</span><span class="n">bolsonaro_polls_empresas</span><span class="p">[</span><span class="s1">&#39;amostra&#39;</span><span class="p">],</span> 
+    <span class="n">n</span><span class="o">=</span><span class="n">candidato_polls</span><span class="p">[</span><span class="s1">&#39;amostra&#39;</span><span class="p">],</span> 
     <span class="n">p</span><span class="o">=</span><span class="n">theta</span><span class="p">,</span> 
-    <span class="n">observed</span><span class="o">=</span><span class="n">bolsonaro_polls_empresas</span><span class="p">[</span><span class="s1">&#39;votos&#39;</span><span class="p">]</span>
+    <span class="n">observed</span><span class="o">=</span><span class="n">candidato_polls</span><span class="p">[</span><span class="s1">&#39;votos&#39;</span><span class="p">]</span>
 <span class="p">)</span>
 </pre></div>
 
@@ -14988,7 +14965,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
