@@ -1,0 +1,55 @@
+digraph {
+	baseline [label="baseline
+~
+Normal"]
+	drift_effect [label="drift_effect
+~
+HalfNormal"]
+	subgraph cluster6 {
+		president_effect [label="president_effect
+~
+Normal"]
+		label=6 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster34 {
+		bias [label="bias
+~
+Normal"]
+		label=34 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster39 {
+		month_effect [label="month_effect
+~
+Normal"]
+		label=39 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 38" {
+		rw_blows [label="rw_blows
+~
+Normal"]
+		label="6 x 38" labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 39" {
+		month_president_effect [label="month_president_effect
+~
+Deterministic" shape=box]
+		label="6 x 39" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster640 {
+		likelihood [label="likelihood
+~
+Binomial" style=filled]
+		popularity [label="popularity
+~
+Deterministic" shape=box]
+		label=640 labeljust=r labelloc=b style=rounded
+	}
+	rw_blows -> month_president_effect
+	drift_effect -> month_president_effect
+	baseline -> popularity
+	bias -> popularity
+	month_president_effect -> popularity
+	president_effect -> popularity
+	month_effect -> popularity
+	popularity -> likelihood
+}

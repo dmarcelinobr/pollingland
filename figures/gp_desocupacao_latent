@@ -1,0 +1,56 @@
+digraph {
+	tendencia [label="tendencia
+~
+Gamma"]
+	lua_de_mel [label="lua_de_mel
+~
+Normal"]
+	amplitude [label="amplitude
+~
+HalfNormal"]
+	log_desocupacao [label="log_desocupacao
+~
+Normal"]
+	baseline [label="baseline
+~
+Normal"]
+	sigma_dispersao [label="sigma_dispersao
+~
+Exponential"]
+	subgraph cluster331 {
+		stdz_log_desocupacao [label="stdz_log_desocupacao
+~
+Data" shape=box style="rounded, filled"]
+		delta_desocupacao [label="delta_desocupacao
+~
+Normal"]
+		gp_tempo [label="gp_tempo
+~
+Deterministic" shape=box]
+		p [label="p
+~
+Deterministic" shape=box]
+		y [label="y
+~
+BetaBinomial" style=filled]
+		gp_tempo_rotated_ [label="gp_tempo_rotated_
+~
+Normal"]
+		mandato [label="mandato
+~
+Data" shape=box style="rounded, filled"]
+		label=331 labeljust=r labelloc=b style=rounded
+	}
+	amplitude -> gp_tempo
+	gp_tempo_rotated_ -> gp_tempo
+	tendencia -> gp_tempo
+	stdz_log_desocupacao -> p
+	delta_desocupacao -> p
+	lua_de_mel -> p
+	gp_tempo -> p
+	log_desocupacao -> p
+	baseline -> p
+	mandato -> p
+	p -> y
+	sigma_dispersao -> y
+}

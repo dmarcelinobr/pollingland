@@ -1,0 +1,24 @@
+digraph {
+	kappa [label="kappa
+~
+Deterministic" shape=box]
+	phi [label="phi
+~
+Beta"]
+	kappa_log [label="kappa_log
+~
+HalfNormal"]
+	subgraph cluster10 {
+		p [label="p
+~
+Beta"]
+		y [label="y
+~
+Binomial" style=filled]
+		label=10 labeljust=r labelloc=b style=rounded
+	}
+	kappa_log -> kappa
+	kappa -> p
+	phi -> p
+	p -> y
+}

@@ -1,0 +1,34 @@
+digraph {
+	subgraph cluster34 {
+		bias [label="bias
+~
+Normal"]
+		label=34 labeljust=r labelloc=b style=rounded
+	}
+	sigma_mu [label="sigma_mu
+~
+HalfNormal"]
+	overdispersion [label="overdispersion
+~
+Exponential"]
+	subgraph cluster39 {
+		mu [label="mu
+~
+GaussianRandomWalk"]
+		label=39 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster640 {
+		likelihood [label="likelihood
+~
+BetaBinomial" style=filled]
+		popularity [label="popularity
+~
+Deterministic" shape=box]
+		label=640 labeljust=r labelloc=b style=rounded
+	}
+	sigma_mu -> mu
+	bias -> popularity
+	mu -> popularity
+	overdispersion -> likelihood
+	popularity -> likelihood
+}

@@ -1,0 +1,41 @@
+digraph {
+	subgraph cluster34 {
+		bias [label="bias
+~
+Normal"]
+		label=34 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster39 {
+		month_effect [label="month_effect
+~
+Normal"]
+		label=39 labeljust=r labelloc=b style=rounded
+	}
+	drift_effect [label="drift_effect
+~
+HalfNormal"]
+	subgraph "cluster6 x 39" {
+		raw_grw [label="raw_grw
+~
+GaussianRandomWalk"]
+		month_president_effect [label="month_president_effect
+~
+Deterministic" shape=box]
+		label="6 x 39" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster640 {
+		likelihood [label="likelihood
+~
+Binomial" style=filled]
+		popularity [label="popularity
+~
+Deterministic" shape=box]
+		label=640 labeljust=r labelloc=b style=rounded
+	}
+	raw_grw -> month_president_effect
+	month_effect -> month_president_effect
+	drift_effect -> month_president_effect
+	bias -> popularity
+	month_president_effect -> popularity
+	popularity -> likelihood
+}

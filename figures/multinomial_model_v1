@@ -1,0 +1,72 @@
+digraph {
+	subgraph cluster6 {
+		raw_lsd_party [label="raw_lsd_party
+~
+ZeroSumNormal"]
+		time_weight [label="time_weight
+~
+Deterministic" shape=box]
+		intercept [label="intercept
+~
+ZeroSumNormal"]
+		label=6 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster9 x 6" {
+		house_effects [label="house_effects
+~
+ZeroSumNormal"]
+		label="9 x 6" labeljust=r labelloc=b style=rounded
+	}
+	shrinkage [label="shrinkage
+~
+HalfNormal"]
+	lsd_intercept [label="lsd_intercept
+~
+Normal"]
+	subgraph "cluster8 x 6" {
+		raw_time_coefs [label="raw_time_coefs
+~
+ZeroSumNormal"]
+		label="8 x 6" labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster346 x 6" {
+		time_effect [label="time_effect
+~
+Deterministic" shape=box]
+		observed_polls [label="observed_polls
+~
+Data" shape=box style="rounded, filled"]
+		popularity [label="popularity
+~
+Deterministic" shape=box]
+		N_approve [label="N_approve
+~
+Multinomial" style=filled]
+		label="346 x 6" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster346 {
+		observed_days_idx [label="observed_days_idx
+~
+Data" shape=box style="rounded, filled"]
+		observed_N [label="observed_N
+~
+Data" shape=box style="rounded, filled"]
+		pollster_idx [label="pollster_idx
+~
+Data" shape=box style="rounded, filled"]
+		label=346 labeljust=r labelloc=b style=rounded
+	}
+	shrinkage -> time_weight
+	raw_lsd_party -> time_weight
+	lsd_intercept -> time_weight
+	time_weight -> raw_time_coefs
+	raw_time_coefs -> time_effect
+	N_approve -> observed_polls
+	time_effect -> popularity
+	house_effects -> popularity
+	pollster_idx -> popularity
+	observed_days_idx -> popularity
+	intercept -> popularity
+	popularity -> N_approve
+	observed_N -> N_approve
+}

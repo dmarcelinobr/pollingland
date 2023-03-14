@@ -1,0 +1,58 @@
+digraph {
+	decline_effect [label="decline_effect
+~
+HalfNormal"]
+	baseline [label="baseline
+~
+Normal"]
+	subgraph cluster6 {
+		president_effect [label="president_effect
+~
+Normal"]
+		label=6 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster34 {
+		bias [label="bias
+~
+Normal"]
+		label=34 labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster39 {
+		month_effect [label="month_effect
+~
+Normal"]
+		label=39 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 38" {
+		rw_innovations [label="rw_innovations
+~
+Normal"]
+		label="6 x 38" labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster6 x 39" {
+		month_president_effect [label="month_president_effect
+~
+Deterministic" shape=box]
+		raw_rw [label="raw_rw
+~
+GaussianRandomWalk"]
+		label="6 x 39" labeljust=r labelloc=b style=rounded
+	}
+	subgraph cluster640 {
+		likelihood [label="likelihood
+~
+Binomial" style=filled]
+		popularity [label="popularity
+~
+Deterministic" shape=box]
+		label=640 labeljust=r labelloc=b style=rounded
+	}
+	decline_effect -> month_president_effect
+	raw_rw -> month_president_effect
+	baseline -> popularity
+	month_effect -> popularity
+	president_effect -> popularity
+	month_president_effect -> popularity
+	bias -> popularity
+	popularity -> likelihood
+}
