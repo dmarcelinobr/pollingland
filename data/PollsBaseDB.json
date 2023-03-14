@@ -29,6 +29,96 @@
                 "partido": "PT"
             },
             "timestamp": "2023-03-14 12:36"
+        },
+        {
+            "data_ini": "2023-03-02",
+            "data_fim": "2023-03-05",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "nota": {
+                "otima": 2.9,
+                "boa": 18.5,
+                "positiva": 21.4,
+                "regular": 40.2,
+                "ruim": 10.5,
+                "pessima": 22.6,
+                "negativa": 33.1,
+                "nsnr": 5.3
+            },
+            "erro": 3.2,
+            "ic": 95.0,
+            "amostra": 1000,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "Rio de Janeiro",
+            "tipo": "Avaliação do governo estadual",
+            "modo": "Presencial",
+            "pergunta": "A administração do Governador Cláudio Castro está sendo ótima, boa, regular, ruim ou péssima?",
+            "gov": {
+                "nome": "Cláudio Castro",
+                "partido": "PL"
+            },
+            "timestamp": "2023-03-14 16:45"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "nota": {
+                "otima": 15.0,
+                "boa": 29.1,
+                "positiva": 44.1,
+                "regular": 22.7,
+                "ruim": 5.7,
+                "pessima": 22.4,
+                "negativa": 28.1,
+                "nsnr": 5.0
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Avaliação do governo federal",
+            "modo": "Presencial",
+            "pergunta": "A administração do Presidente Lula está sendo ótima, boa, regular, ruim ou péssima?",
+            "gov": {
+                "nome": "Luiz Inácio Lula da Silva",
+                "partido": "PT"
+            },
+            "timestamp": "2023-03-14 17:41"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "nota": {
+                "otima": 10.3,
+                "boa": 30.8,
+                "positiva": 41.1,
+                "regular": 33.2,
+                "ruim": 7.3,
+                "pessima": 11.9,
+                "negativa": 19.2,
+                "nsnr": 6.5
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Avaliação do governo estadual",
+            "modo": "Presencial",
+            "pergunta": "A administração do Governador Tarcísio de Freitas está sendo ótima, boa, regular, ruim ou péssima?",
+            "gov": {
+                "nome": "Tarcísio de Freitas",
+                "partido": "REPUBLICANOS"
+            },
+            "timestamp": "2023-03-14 17:48"
         }
     ],
     "aprovacao": [
@@ -64,36 +154,6 @@
             "empresa": "Paraná",
             "nome": "Paraná",
             "nota": {
-                "otima": 2.9,
-                "boa": 18.5,
-                "positiva": 21.4,
-                "regular": 40.2,
-                "ruim": 10.5,
-                "pessima": 22.6,
-                "negativa": 33.1,
-                "nsnr": 5.3
-            },
-            "erro": 3.2,
-            "ic": 95.0,
-            "amostra": 1000,
-            "ufs": 1,
-            "cidades": 1,
-            "estrato": "Rio de Janeiro",
-            "tipo": "Avaliação do governo estadual",
-            "modo": "Presencial",
-            "pergunta": "A administração do Governador Cláudio Castro está sendo ótima, boa, regular, ruim ou péssima?",
-            "gov": {
-                "nome": "Cláudio Castro",
-                "partido": "PL"
-            },
-            "timestamp": "2023-03-14 16:45"
-        },
-        {
-            "data_ini": "2023-03-02",
-            "data_fim": "2023-03-05",
-            "empresa": "Paraná",
-            "nome": "Paraná",
-            "nota": {
                 "aprova": 43.2,
                 "neutra": null,
                 "desaprova": 45.1,
@@ -113,6 +173,58 @@
                 "partido": "PL"
             },
             "timestamp": "2023-03-14 16:45"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "nota": {
+                "aprova": 58.9,
+                "neutra": null,
+                "desaprova": 33.3,
+                "nsnr": 7.8
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Aprovação do governo federal",
+            "modo": "Presencial",
+            "pergunta": "De uma maneira geral, o(a) Sr(a) diria que aprova ou desaprova a administração do Presidente Lula, até o momento?",
+            "gov": {
+                "nome": "Luiz Inácio Lula da Silva",
+                "partido": "PT"
+            },
+            "timestamp": "2023-03-14 17:42"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "nota": {
+                "aprova": 61.2,
+                "neutra": null,
+                "desaprova": 27.3,
+                "nsnr": 11.6
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Aprovação do governo estadual",
+            "modo": "Presencial",
+            "pergunta": "De uma maneira geral, o(a) Sr(a) diria que aprova ou desaprova a administração do Governador Tarcísio de Freitas, até o momento?",
+            "gov": {
+                "nome": "Tarcísio de Freitas",
+                "partido": "REPUBLICANOS"
+            },
+            "timestamp": "2023-03-14 17:49"
         }
     ],
     "eleitoral": [
@@ -883,6 +995,222 @@
             "cenario": "Cenário 3",
             "pergunta": "Se as eleições para Prefeito do Rio de Janeiro fossem hoje e os candidatos fossem esses, em quem o(a) Sr(a) votaria?",
             "timestamp": "2023-03-14 15:36"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Fernando Haddad",
+                "partido": "PT",
+                "voto": 2.9
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Guilherme Boulos",
+                "partido": "PSOL",
+                "voto": 1.6
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Ricardo Nunes",
+                "partido": "MDB",
+                "voto": 0.7
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Datena",
+                "partido": "PSC",
+                "voto": 0.5
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Ricardo Salles",
+                "partido": "PL",
+                "voto": 0.2
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Rodrigo Garcia",
+                "partido": "PSDB",
+                "voto": 0.1
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "Tabata Amaral",
+                "partido": "PSB",
+                "voto": 0.1
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "NBN",
+                "partido": null,
+                "voto": 11.6
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
+        },
+        {
+            "data_ini": "2023-02-23",
+            "data_fim": "2023-02-26",
+            "empresa": "Paraná",
+            "nome": "Paraná",
+            "turno": 1,
+            "info": {
+                "cargo": "Prefeito",
+                "nome": "NSNR",
+                "partido": null,
+                "voto": 81.6
+            },
+            "erro": 3.1,
+            "ic": 95.0,
+            "amostra": 1012,
+            "ufs": 1,
+            "cidades": 1,
+            "estrato": "São Paulo",
+            "tipo": "Espontânea",
+            "modo": "Presencial",
+            "cenario": "Espontânea",
+            "pergunta": "Se as eleições para Prefeito(a) de São Paulo fossem hoje, em quem o(a) Sr(a) votaria?",
+            "timestamp": "2023-03-14 18:05"
         }
     ]
 }
