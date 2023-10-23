@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="574.31952pt" height="376.31952pt" viewBox="0 0 574.31952 376.31952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2023-03-31T12:26:14.752438</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 376.31952 
+L 574.31952 376.31952 
+L 574.31952 -0 
+L 0 -0 
+L 0 376.31952 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 72.071094 324.943114 
+L 572.15952 324.943114 
+L 572.15952 13.738125 
+L 72.071094 13.738125 
+L 72.071094 324.943114 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 172.088779 324.943114 
+L 172.088779 13.738125 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mbf77f76b3d" d="M 0 0 
+L 0 -10 
+" style="stroke: #333333; stroke-width: 1.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbf77f76b3d" x="172.088779" y="324.943114" style="fill: #333333; stroke: #333333; stroke-width: 1.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #333333; font: 22px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="172.088779" y="347.700926" transform="rotate(-0 172.088779 347.700926)">40   </text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 272.106464 324.943114 
+L 272.106464 13.738125 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbf77f76b3d" x="272.106464" y="324.943114" style="fill: #333333; stroke: #333333; stroke-width: 1.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #333333; font: 22px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="272.106464" y="347.700926" transform="rotate(-0 272.106464 347.700926)">50  </text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 372.12415 324.943114 
+L 372.12415 13.738125 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbf77f76b3d" x="372.12415" y="324.943114" style="fill: #333333; stroke: #333333; stroke-width: 1.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #333333; font: 22px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="372.12415" y="347.700926" transform="rotate(-0 372.12415 347.700926)">60  </text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 472.141835 324.943114 
+L 472.141835 13.738125 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mbf77f76b3d" x="472.141835" y="324.943114" style="fill: #333333; stroke: #333333; stroke-width: 1.5"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #333333; font: 22px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="472.141835" y="347.700926" transform="rotate(-0 472.141835 347.700926)">70%</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="322.115307" y="370.908739" transform="rotate(-0 322.115307 370.908739)">VOTAÇÃO NO 2º TURNO</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 72.071094 324.943114 
+L 572.15952 324.943114 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="text_6">
+      <text style="fill: #333333; font: 24px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="69.071094" y="331.646239" transform="rotate(-0 69.071094 331.646239)">40   </text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 72.071094 221.208118 
+L 572.15952 221.208118 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="text_7">
+      <text style="fill: #333333; font: 24px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="69.071094" y="227.911243" transform="rotate(-0 69.071094 227.911243)">50  </text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 72.071094 117.473121 
+L 572.15952 117.473121 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="text_8">
+      <text style="fill: #333333; font: 24px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="69.071094" y="124.176246" transform="rotate(-0 69.071094 124.176246)">60  </text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <path d="M 72.071094 13.738125 
+L 572.15952 13.738125 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke-dasharray: 0.5,1.5; stroke-dashoffset: 0; stroke: #000000; stroke-opacity: 0.35; stroke-width: 0.5"/>
+     </g>
+     <g id="text_9">
+      <text style="fill: #333333; font: 24px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="69.071094" y="20.44125" transform="rotate(-0 69.071094 20.44125)">70%</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="15.899063" y="169.340619" transform="rotate(-90 15.899063 169.340619)">APROVAÇÃO ATUAL</text>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <defs>
+     <path id="mc0b48836e4" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#pdfd19c5ca3)">
+     <use xlink:href="#mc0b48836e4" x="479.443126" y="40.709224" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="310.413238" y="136.145421" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="304.212141" y="192.162319" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="171.388655" y="264.776816" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="245.50176" y="229.506917" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="229.598948" y="217.058718" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="307.512725" y="128.883971" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+     <use xlink:href="#mc0b48836e4" x="307.112654" y="248.179217" style="fill: #4c81ff; fill-opacity: 0.85; stroke: #4c81ff; stroke-opacity: 0.85; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 479.443126 46.905242 
+L 310.413238 170.470226 
+L 304.212141 175.003379 
+L 171.388655 272.100597 
+L 245.50176 217.922104 
+L 229.598948 229.547449 
+L 307.512725 172.590572 
+L 307.112654 172.883033 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke: #808080; stroke-width: 2"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 72.071094 324.943114 
+L 572.15952 324.943114 
+" clip-path="url(#pdfd19c5ca3)" style="fill: none; stroke: #000000; stroke-opacity: 0.7; stroke-width: 4"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="482.143603" y="33.487828" transform="rotate(-0 482.143603 33.487828)">Salvador</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(149.279035 284.446412)">São Caetano</text>
+    <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(169.097785 301.204224)"> do Sul</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="312.113538" y="150.708373" transform="rotate(-0 312.113538 150.708373)">São Paulo</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #222222; font: 15px 'Roboto', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="297.110886" y="266.814225" transform="rotate(-0 297.110886 266.814225)">Porto Alegre</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdfd19c5ca3">
+   <rect x="72.071094" y="13.738125" width="500.088426" height="311.204989"/>
+  </clipPath>
+ </defs>
+</svg>
