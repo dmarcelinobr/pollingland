@@ -1,0 +1,35 @@
+name: pollsbase
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.10
+  - python-dateutil
+  - python-fastjsonschema
+  - pip>23.1
+  - wheel
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib>3.1
+  - matplotlib-base
+  - matplotlib-inline
+  - plotly>5.8
+  - statsmodels>0.13
+  - python-graphviz
+  - jupyter_client>8.0
+  - ipython>8.0
+  - ipykernel
+  - ipywidgets
+  - notebook
+  - jupyter
+  - jupyterlab
+  - pymc>5.0
+  - arviz
+  - aesara
+  - pytensor
+  - cftime
+  - pip:
+    - jotaviz
+
